@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "stable-diffusion-webui",
+			"path": "../../OneDrive/Documenten/ICT- Semester 7/Week 9/stable-diffusion-webui"
+		},
+		{
+			"name": "StableDiffusionApp",
+			"path": "../../StableDiffusionApp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sketch486307"
+	}
+}
