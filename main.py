@@ -3,6 +3,7 @@ import requests
 import io
 import base64
 from PIL import Image
+import time
 
 url = "http://127.0.0.1:7860"
 
@@ -11,9 +12,13 @@ payload = {
     "steps": 20
 }
 
-response = requests.post(url=f'{url}/sdapi/v1/txt2img', json=payload)
+i=2
 
-r = response.json()
-
-image = Image.open(io.BytesIO(base64.b64decode(r['images'][0])))
-image.save('./images/output.png')
+while True:
+    response = requests.post(url=f'{url}/sdapi/v1/txt2img', json=payload)
+    r = response.json()
+    print(r)
+    image = Image.open(io.BytesIO(base64.b64decode(r['images'][0])))
+    image.save('./images/output' + str(i) + '.png' )
+    i = i + 1
+    time.sleep(15)

@@ -6,9 +6,15 @@ var subStep = 800;
 var z = 0;
 var isStop = false;
 var count = 0;
+var deleteDelay = -2;
+imageCount = 0;
+
 
 function preload() {
-  imgs[0] = loadImage("./images/output.png");
+  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
+  console.log("imageCount:" + imageCount)
+  console.log(imgs);
+  console.log(imgIndex);
 }
 
 function setup() {
@@ -33,11 +39,15 @@ function draw() {
     }
   }
 	count++;
+  console.log("Count: "+ count + " and Width: " + width)
 	if (count > width) {
 		isStop = true;
+    count = 0;
 	}
-	//background(255);
-	//image(img, 0, 0, width, height);
+  if(isStop == true){
+    nextImage();
+    isStop = false;
+  }
 }
 
 function fget(i, j) {
@@ -80,4 +90,7 @@ function nextImage() {
   //img.resize(width, height);
   img.loadPixels();
   clear();
+  imageCount++;
+  preload();
+  console.log("switching image to: " + imgIndex);
 }
