@@ -2,7 +2,7 @@ var imgs = [];
 var imgIndex = -1;
 var img;
 var paint;
-var subStep = 800;
+var subStep = 400;
 var z = 0;
 var isStop = false;
 var lineCount = 0;
@@ -17,11 +17,16 @@ function preload() {
     console.log(imgIndex);
 }
 
+// function to get windowheight
+function windowHeight() {
+    return ;
+}
+
 function setup() {
     if (windowWidth < 600)
         createCanvas(windowWidth, windowWidth);
     else
-        createCanvas(900, 900);
+        createCanvas(1000 , 1000);
     img = createImage(width, height);
     nextImage();
     paint = new Paint(createVector(width / 2, height / 2));
@@ -40,15 +45,15 @@ function draw() {
     }
     lineCount++;
     // console.log("Count: "+ lineCount + " and Width: " + width)
-    if (lineCount > width) {
+    if (lineCount > width * 4) {
         isStop = true;
         lineCount = 0;
     }
 
-    if (isStop == true) {
-        nextImage();
-        isStop = false;
-    }
+    // if (isStop == true) {
+    //     nextImage();
+    //     isStop = false;
+    // }
 }
 
 function fget(i, j) {
@@ -93,3 +98,10 @@ function nextImage() {
     preload();
     console.log("switching image to: " + imgIndex);
 }
+
+const shadow = document.querySelector('.shadow');
+document.addEventListener('mousemove', (e) => {
+    let x = e.clientX - (document.documentElement.clientWidth * 1.5);
+    let y = e.clientY - (document.documentElement.clientHeight * 1.5);
+    shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+})

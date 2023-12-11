@@ -4,8 +4,6 @@ function Paint(p) {
     var pos = p.copy();
     var vel = createVector(0, 0);
     var force = createVector(0, 0);
-    ;
-
 
     var maxSpeed = 5.0;
     var perception = 5;
@@ -14,6 +12,7 @@ function Paint(p) {
     var noiseScale = 100.0;
     var noiseInfluence = 1 / 20.0;
 
+    var dropRate = 0.0001;
     var dropRange = 40;
     var dropAlpha = 150;
     var drawAlpha = 50;
@@ -109,20 +108,17 @@ function Paint(p) {
         vel.mult(0);
     }
 
-    this.show = function (lineCount) {
+    this.show = function () {
         count++;
         if (count > maxCount)
             this.reset();
         stroke(drawColor);
         strokeWeight(drawWeight);
-
-        if (force.mag() > 0.1 && lineCount % 150 === 0 && count === 1 && lineCount > 0) {
-            console.log("drop", lineCount, count);
-            console.log("drop location: " + pos.x + ", " + pos.y);
-
+        if (force.mag() > 0.1 && random(1) < dropRate) {
             drawColor.setAlpha(dropAlpha);
             stroke(drawColor);
-            strokeWeight(drawWeight + random(20, 25));
+            var boldWeight = drawWeight + random(5);
+            strokeWeight(boldWeight);
             drawColor.setAlpha(drawAlpha);
         }
         line(ppos.x, ppos.y, pos.x, pos.y);
