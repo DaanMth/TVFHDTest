@@ -120,6 +120,7 @@ function Paint(p) {
             var boldWeight = drawWeight + random(5);
             strokeWeight(boldWeight);
             drawColor.setAlpha(drawAlpha);
+            
         }
         line(ppos.x, ppos.y, pos.x, pos.y);
 
