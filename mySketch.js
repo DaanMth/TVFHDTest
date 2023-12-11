@@ -2,7 +2,7 @@ var imgs = [];
 var imgIndex = -1;
 var img;
 var paint;
-var subStep = 800;
+var subStep = 400;
 var z = 0;
 var isStop = false;
 var count = 0;
@@ -15,6 +15,11 @@ function preload() {
   console.log("imageCount:" + imageCount)
   console.log(imgs);
   console.log(imgIndex);
+}
+
+// function to get windowheight
+function windowHeight() {
+    return ;
 }
 
 function setup() {
@@ -48,6 +53,38 @@ function draw() {
     nextImage();
     isStop = false;
   }
+
+    if (windowWidth < 600)
+        createCanvas(windowWidth, windowWidth);
+    else
+        createCanvas(1000 , 1000);
+    img = createImage(width, height);
+    nextImage();
+    paint = new Paint(createVector(width / 2, height / 2));
+    background(255, 255, 255);
+    colorMode(RGB, 255, 255, 255, 255);
+}
+
+function draw() {
+    //console.log(frameRate());
+    if (!isStop) {
+        for (var i = 0; i < subStep; i++) {
+            paint.update();
+            paint.show(lineCount);
+            z += 0.01;
+        }
+    }
+    lineCount++;
+    // console.log("Count: "+ lineCount + " and Width: " + width)
+    if (lineCount > width * 4) {
+        isStop = true;
+        lineCount = 0;
+    }
+
+    // if (isStop == true) {
+    //     nextImage();
+    //     isStop = false;
+    // }
 }
 
 function fget(i, j) {
@@ -84,13 +121,30 @@ function touchStarted() {
 
 function nextImage() {
 	if (!img) return;
-  imgIndex = (++imgIndex) % imgs.length;
-  var targetImg = imgs[imgIndex];
-  img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
-  //img.resize(width, height);
-  img.loadPixels();
-  clear();
-  imageCount++;
-  preload();
-  console.log("switching image to: " + imgIndex);
+    imgIndex = (++imgIndex) % imgs.length;
+    var targetImg = imgs[imgIndex];
+    img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+    //img.resize(width, height);
+    img.loadPixels();
+    clear();
+    imageCount++;
+    preload();
+    console.log("switching image to: " + imgIndex);
+  if (!img) return;
+    imgIndex = (++imgIndex) % imgs.length;
+    var targetImg = imgs[imgIndex];
+    img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+    //img.resize(width, height);
+    img.loadPixels();
+    clear();
+    imageCount++;
+    preload();
+    console.log("switching image to: " + imgIndex);
+
+  const shadow = document.querySelector('.shadow');
+  document.addEventListener('mousemove', (e) => {
+      let x = e.clientX - (document.documentElement.clientWidth * 1.5);
+      let y = e.clientY - (document.documentElement.clientHeight * 1.5);
+      shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+  })
 }
