@@ -1,6 +1,6 @@
 body {
     margin: unset;
-    background: black;
+    background: white;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -11,17 +11,30 @@ body {
     overflow: hidden;
 }
 
-body, canvas {
-    border-radius: 50%;
-    z-index: 999;
-}
+
 
 .shadow {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 200vw;
+    height: 200vh;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-image: radial-gradient(circle at center, transparent, #000 20%);
+    background: radial-gradient(circle at center, transparent 10%, black 12%);
+}
+
+.wrapper.active {
+    display: block;
+}
+
+.wrapper {
+    display: none;
+}
+
+body, canvas {
+    border-radius: 0;
+    z-index: 999;
+}
+body.active, canvas {
+    border-radius: 50%;
 }

@@ -26,7 +26,7 @@ function setup() {
     if (windowWidth < 600)
         createCanvas(windowWidth, windowWidth);
     else
-        createCanvas(1000 , 1000);
+        createCanvas(800 , 800);
     img = createImage(width, height);
     nextImage();
     paint = new Paint(createVector(width / 2, height / 2));
@@ -79,6 +79,20 @@ function keyPressed() {
 }
 
 function mouseClicked() {
+    const wrapper = document.querySelector('.wrapper');
+    const body = document.querySelector('body');
+    if(body.classList.contains('active')){
+        body.classList.remove('active');
+    }
+    else{
+        body.classList.add('active');
+    }
+    if (wrapper.classList.contains('active')) {
+        wrapper.classList.remove('active');
+    }
+    else {
+        wrapper.classList.add('active');
+    }
 
 }
 
