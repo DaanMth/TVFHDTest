@@ -124,6 +124,7 @@ function Paint(p) {
             stroke(drawColor);
             strokeWeight(drawWeight + random(20, 25));
             drawColor.setAlpha(drawAlpha);
+            
         }
         line(ppos.x, ppos.y, pos.x, pos.y);
 
