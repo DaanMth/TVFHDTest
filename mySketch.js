@@ -8,114 +8,111 @@ var isStop = false;
 var lineCount = 0;
 var deleteDelay = -2;
 imageCount = 0;
-
+let showSpotlights = false;
 
 function preload() {
-    imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
-    console.log("imageCount:" + imageCount)
-    console.log(imgs);
-    console.log(imgIndex);
+  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
+  console.log("imageCount:" + imageCount)
+  console.log(imgs);
+  console.log(imgIndex);
 }
 
-// function to get windowheight
 function windowHeight() {
-    return ;
+  return;
 }
 
 function setup() {
-    if (windowWidth < 600)
-        createCanvas(windowWidth, windowWidth);
-    else
-        createCanvas(800 , 800);
-    img = createImage(width, height);
-    nextImage();
-    paint = new Paint(createVector(width / 2, height / 2));
-    background(255, 255, 255);
-    colorMode(RGB, 255, 255, 255, 255);
+  if (windowWidth < 600)
+    createCanvas(windowWidth, windowWidth);
+  else
+    createCanvas(800, 800);
+  img = createImage(width, height);
+  nextImage();
+  paint = new Paint(createVector(width / 2, height / 2));
+  background(255, 255, 255);
+  colorMode(RGB, 255, 255, 255, 255);
 }
 
 function draw() {
-    //console.log(frameRate());
-    if (!isStop) {
-        for (var i = 0; i < subStep; i++) {
-            paint.update();
-            paint.show(lineCount);
-            z += 0.01;
-        }
+  if (!isStop) {
+    for (var i = 0; i < subStep; i++) {
+      paint.update();
+      paint.show(lineCount);
+      z += 0.01;
     }
-    lineCount++;
-    // console.log("Count: "+ lineCount + " and Width: " + width)
-    if (lineCount > width * 4) {
-        isStop = true;
-        lineCount = 0;
-    }
+  }
+  lineCount++;
 
-    // if (isStop == true) {
-    //     nextImage();
-    //     isStop = false;
-    // }
+  if (lineCount > width * 4) {
+    isStop = true;
+    lineCount = 0;
+  }
 }
 
 function fget(i, j) {
-    var index = j * img.width + i;
-    index *= 4;
-    return color(img.pixels[index], img.pixels[index + 1], img.pixels[index + 2], img.pixels[index + 3]);
+  var index = j * img.width + i;
+  index *= 4;
+  return color(img.pixels[index], img.pixels[index + 1], img.pixels[index + 2], img.pixels[index + 3]);
 }
 
 function fset(i, j, c) {
-    var index = j * img.width + i;
-    index *= 4;
-    img.pixels[index] = red(c);
-    img.pixels[index + 1] = green(c);
-    img.pixels[index + 2] = blue(c);
-    img.pixels[index + 3] = alpha(c);
+  var index = j * img.width + i;
+  index *= 4;
+  img.pixels[index] = red(c);
+  img.pixels[index + 1] = green(c);
+  img.pixels[index + 2] = blue(c);
+  img.pixels[index + 3] = alpha(c);
 }
 
 function keyPressed() {
-    console.log(key);
-    if (key === 's' || key === 'S') {
-        isStop = !isStop;
-    }
+  console.log(key);
+  if (key === 's' || key === 'S') {
+    isStop = !isStop;
+  }
 }
 
 function mouseClicked() {
-    const wrapper = document.querySelector('.wrapper');
-    const body = document.querySelector('body');
-    if(body.classList.contains('active')){
-        body.classList.remove('active');
-    }
-    else{
-        body.classList.add('active');
-    }
-    if (wrapper.classList.contains('active')) {
-        wrapper.classList.remove('active');
-    }
-    else {
-        wrapper.classList.add('active');
-    }
+  const wrapper = document.querySelector('.wrapper');
+  const body = document.querySelector('body');
+  const canvas = document.querySelector('canvas');
 
+  if (body.classList.contains('active')) {
+    body.classList.remove('active');
+  } else {
+    body.classList.add('active');
+  }
+
+  if (wrapper.classList.contains('active')) {
+    wrapper.classList.remove('active');
+  } else {
+    wrapper.classList.toggle('transition');
+    wrapper.classList.add('active');
+  }
+  if (canvas.classList.contains('active')) {
+    canvas.classList.remove('active');
+  } else {
+    canvas.classList.add('active');
+    console.log("Hallo")
+  }
 }
 
-function touchStarted() {
-
-}
+function touchStarted() {}
 
 function nextImage() {
-    if (!img) return;
-    imgIndex = (++imgIndex) % imgs.length;
-    var targetImg = imgs[imgIndex];
-    img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
-    //img.resize(width, height);
-    img.loadPixels();
-    clear();
-    imageCount++;
-    preload();
-    console.log("switching image to: " + imgIndex);
+  if (!img) return;
+  imgIndex = (++imgIndex) % imgs.length;
+  var targetImg = imgs[imgIndex];
+  img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+  img.loadPixels();
+  clear();
+  imageCount++;
+  preload();
+  console.log("switching image to: " + imgIndex);
 }
 
 const shadow = document.querySelector('.shadow');
 document.addEventListener('mousemove', (e) => {
-    let x = e.clientX - (document.documentElement.clientWidth * 1.5);
-    let y = e.clientY - (document.documentElement.clientHeight * 1.5);
-    shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
-})
+  let x = e.clientX - (document.documentElement.clientWidth * 1.5);
+  let y = e.clientY - (document.documentElement.clientHeight * 1.5);
+  shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+});

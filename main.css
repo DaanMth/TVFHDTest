@@ -11,17 +11,22 @@ body {
     overflow: hidden;
 }
 
+.spotlight-container {
+    position: relative;
+  }
 
 
-.shadow {
+.wrapper.active .shadow {
     position: absolute;
     width: 200vw;
     height: 200vh;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+    transition: background 0.3s ease; /* Add a smooth transition effect */
+    z-index: 2;
     background: radial-gradient(circle at center, transparent 10%, black 12%);
-}
+  }
 
 .wrapper.active {
     display: block;
@@ -31,10 +36,9 @@ body {
     display: none;
 }
 
-body, canvas {
-    border-radius: 0;
-    z-index: 999;
-}
-body.active, canvas {
+canvas.active {
     border-radius: 50%;
-}
+    z-index: 2;
+    box-shadow: 0 0 13px 5px rgba(255, 255, 255, 50.0);
+    outline: none;
+} 
