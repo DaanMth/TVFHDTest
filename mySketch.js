@@ -12,7 +12,6 @@ let showSpotlights = false;
 
 function preload() {
   imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
-  console.log("imageCount:" + imageCount)
   console.log(imgs);
   console.log(imgIndex);
 }
@@ -25,7 +24,7 @@ function setup() {
   if (windowWidth < 600)
     createCanvas(windowWidth, windowWidth);
   else
-    createCanvas(800, 800);
+    createCanvas(600, 600);
   img = createImage(width, height);
   nextImage();
   paint = new Paint(createVector(width / 2, height / 2));
@@ -42,10 +41,13 @@ function draw() {
     }
   }
   lineCount++;
-
-  if (lineCount > width * 4) {
+  if (lineCount > width) {
     isStop = true;
     lineCount = 0;
+  }
+  if(isStop == true){
+    nextImage();
+    isStop = false;
   }
 }
 
@@ -92,7 +94,6 @@ function mouseClicked() {
     canvas.classList.remove('active');
   } else {
     canvas.classList.add('active');
-    console.log("Hallo")
   }
 }
 
@@ -105,6 +106,7 @@ function nextImage() {
   img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
   img.loadPixels();
   clear();
+  background(255, 255, 255);
   imageCount++;
   preload();
   console.log("switching image to: " + imgIndex);
