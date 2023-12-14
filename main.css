@@ -5,7 +5,7 @@
 
 body {
     margin: unset;
-    background: white;
+    background: black;
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -15,6 +15,10 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 2;
+}
+
+body.active {
+    background: white;
 }
 
 
@@ -64,7 +68,7 @@ body {
     display: none;
 }
 
-canvas.active {
+canvas {
     z-index: 99;
     border-radius: 50%;
     box-shadow: 0 0 13px 5px rgba(255, 255, 255, 50.0);
