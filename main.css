@@ -21,10 +21,26 @@ body.active {
     background: white;
 }
 
+/* Media Query for Tablets and Smaller Screens */
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: 0px; /* Adjust font size for smaller screens */
+        width: 80%; /* Adjust width for better responsiveness */
+    }
+}
+
+.suicide-Title {
+    font-weight: bold;
+    font-size: 208%; 
+}
+
+.suicide-Text {
+    font-weight: bold;
+    font-size: 118%; 
+}
 
 .text {
     position: absolute;
-    font-weight: bold;
     font-family: Beth Ellen;
     top: 40%;
     transform: translateY(-50%);
@@ -35,13 +51,26 @@ body.active {
     z-index: -1;
 }
 
+.top {
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.bottom {
+    bottom: 5%; /* Adjusted to move closer to the bottom */
+    transform: translateY(50%);
+}
+
 .left {
-    left: 0;
+    left: 15%;
+    transform: translateX(-50%);
 }
 
 .right {
-    right: 0;
+    right: 15%;
+    transform: translateX(50%);
 }
+
 
 .spotlight-container {
     position: relative;

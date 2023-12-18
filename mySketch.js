@@ -2,7 +2,7 @@ var imgs = [];
 var imgIndex = -1;
 var img;
 var paint;
-var subStep = 400;
+var subStep = 800;
 var z = 0;
 var isStop = false;
 var lineCount = 0;
@@ -11,7 +11,7 @@ imageCount = 0;
 let showSpotlights = false;
 
 function preload() {
-  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
+  imgs[imageCount] = loadImage("./images/output2.png");
   console.log(imgs);
   console.log(imgIndex);
 }
@@ -24,7 +24,7 @@ function setup() {
   if (windowWidth < 600)
     createCanvas(windowWidth, windowWidth);
   else
-    createCanvas(600, 600);
+    createCanvas(800, 800);
   img = createImage(width, height);
   nextImage();
   paint = new Paint(createVector(width / 2, height / 2));
@@ -46,8 +46,6 @@ function draw() {
     lineCount = 0;
   }
   if(isStop == true){
-    nextImage();
-    isStop = false;
   }
 }
 
