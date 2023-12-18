@@ -31,46 +31,47 @@ body.active {
 
 .suicide-Title {
     font-weight: bold;
-    font-size: 208%; 
+    font-size: 208%;
 }
 
 .suicide-Text {
     font-weight: bold;
-    font-size: 118%; 
+    font-size: 118%;
 }
 
 .text {
     position: absolute;
+    font-weight: bold;
     font-family: Beth Ellen;
     top: 40%;
     transform: translateY(-50%);
     font-size: 28px;
     color: #333;
-    width: 60%;
-    text-align: center;
+    width: 32%;
     z-index: -1;
 }
 
+.left {
+    left: 24px;
+    text-align: left;
+}
+.right {
+    right: 24px;
+    text-align: right;
+}
+
 .top {
-    top: 10%;
-    transform: translateY(-50%);
+    top: 12px;
 }
 
 .bottom {
-    bottom: 5%; /* Adjusted to move closer to the bottom */
-    transform: translateY(50%);
+    bottom: 12px;
 }
 
-.left {
-    left: 15%;
-    transform: translateX(-50%);
+.middle {
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-.right {
-    right: 15%;
-    transform: translateX(50%);
-}
-
 
 .spotlight-container {
     position: relative;
@@ -90,7 +91,7 @@ body.active {
   }
 
 .wrapper.active {
-    display: block;
+    display: flex;
 }
 
 .wrapper {
