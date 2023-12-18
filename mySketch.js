@@ -33,6 +33,9 @@ function setup() {
 }
 
 function draw() {
+
+  var loadTime = new Date().getDate();
+
   if (!isStop) {
     for (var i = 0; i < subStep; i++) {
       paint.update();
@@ -40,12 +43,16 @@ function draw() {
       z += 0.01;
     }
   }
-  lineCount++;
-  if (lineCount > width) {
-    isStop = true;
-    lineCount = 0;
+
+  currentTime = new Date().getDate();
+
+  if (currentTime - loadTime > 1000) {
+      isStop = true;
   }
+
   if(isStop == true){
+    nextImage();
+    isStop = false;
   }
 }
 
