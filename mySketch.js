@@ -10,9 +10,11 @@ var deleteDelay = -2;
 imageCount = 0;
 let showSpotlights = false;
 stopwatch = 0;
+var loadTime;
 
 function preload() {
-  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
+  loadTime = new Date().getTime();
+  imgs[imageCount] = loadImage("./images/output" + "10"  + ".png");
   console.log(imgs);
   console.log(imgIndex);
 }
@@ -34,9 +36,6 @@ function setup() {
 }
 
 function draw() {
-
-  var loadTime = new Date().getDate();
-
   if (!isStop) {
     for (var i = 0; i < subStep; i++) {
       paint.update();
@@ -44,10 +43,11 @@ function draw() {
       z += 0.01;
     }
   }
+  var currentTime = new Date().getTime();
+  console.log(currentTime)
+  console.log(loadTime)
 
-  currentTime = new Date().getDate();
-
-  if (currentTime - loadTime > 1000) {
+  if (currentTime - loadTime > 60000) {
       isStop = true;
   }
 
