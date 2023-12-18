@@ -25,22 +25,21 @@ body.active {
 .text {
     position: absolute;
     font-weight: bold;
-    font-family: Beth Ellen;
-    top: 40%;
-    transform: translateY(-50%);
+    font-family: 'Beth Ellen';
     font-size: 28px;
     color: #333;
-    width: 60%;
-    text-align: center;
+    width: 32%;
     z-index: -1;
 }
 
 .left {
-    left: 0;
+    left: 24px;
+    top: 40px;
 }
 
 .right {
-    right: 0;
+    right: 24px;
+    bottom: 40px;
 }
 
 .spotlight-container {
@@ -61,7 +60,7 @@ body.active {
   }
 
 .wrapper.active {
-    display: block;
+    display: flex;
 }
 
 .wrapper {
