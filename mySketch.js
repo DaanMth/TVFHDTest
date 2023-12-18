@@ -14,7 +14,7 @@ var loadTime;
 
 function preload() {
   loadTime = new Date().getTime();
-  imgs[imageCount] = loadImage("./images/output" + "10"  + ".png");
+  imgs[imageCount] = loadImage("./images/output" + imageCount  + ".png");
   console.log(imgs);
   console.log(imgIndex);
 }
