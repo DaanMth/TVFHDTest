@@ -21,11 +21,30 @@ body.active {
     background: white;
 }
 
+/* Media Query for Tablets and Smaller Screens */
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: 0px; /* Adjust font size for smaller screens */
+        width: 80%; /* Adjust width for better responsiveness */
+    }
+}
+
+.suicide-Title {
+    font-weight: bold;
+    font-size: 208%;
+}
+
+.suicide-Text {
+    font-weight: bold;
+    font-size: 118%;
+}
 
 .text {
     position: absolute;
     font-weight: bold;
-    font-family: 'Beth Ellen';
+    font-family: Beth Ellen;
+    top: 40%;
+    transform: translateY(-50%);
     font-size: 28px;
     color: #333;
     width: 32%;
