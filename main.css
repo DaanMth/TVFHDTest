@@ -39,10 +39,19 @@ body.active {
     transform: translateY(-50%);
     font-size: 28px;
     color: #333;
-    width: 32%;
     z-index: -1;
 }
 
+.image {
+    position: absolute;
+    object-fit: cover;
+
+}
+.image,img {
+    height: auto;
+    width: 100%;
+    border-radius: 32px;
+}
 .left {
     left: 24px;
     text-align: left;
@@ -53,16 +62,20 @@ body.active {
 }
 
 .top {
-    top: 5%;
+    top: 24px;
 }
 
 .bottom {
-    bottom: 12px;
+    bottom: 24px;
 }
 
 .middle {
     top: 50%;
     transform: translateY(-50%);
+}
+
+.container {
+    width: 32%;
 }
 
 .spotlight-container {

@@ -44,7 +44,7 @@ function draw() {
     }
   }
 
-  currentTime = new Date().getDate();
+  var currentTime = new Date().getDate();
 
   if (currentTime - loadTime > 1000) {
       isStop = true;
