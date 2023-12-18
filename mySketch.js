@@ -2,7 +2,7 @@ var imgs = [];
 var imgIndex = -1;
 var img;
 var paint;
-var subStep = 400;
+var subStep = 800;
 var z = 0;
 var isStop = false;
 var lineCount = 0;

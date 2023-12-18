@@ -34,12 +34,24 @@ body.active {
 
 .left {
     left: 24px;
-    top: 40px;
+    text-align: left;
 }
-
 .right {
     right: 24px;
-    bottom: 40px;
+    text-align: right;
+}
+
+.top {
+    top: 12px;
+}
+
+.bottom {
+    bottom: 12px;
+}
+
+.middle {
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .spotlight-container {
