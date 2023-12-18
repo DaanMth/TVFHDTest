@@ -9,7 +9,7 @@ import os
 url = "http://127.0.0.1:7860"
 
 payload = {
-    "prompt": "<lora:Better Portrait Lighting:1>A black and white picture of a man with different cultural backgrounds with a smooth white background",
+    "prompt": "<lora:Better Portrait Lighting:1>A black and white picture of a man  with different cultural backgrounds with a smooth white background",
     "steps": 20
 }
 
@@ -27,4 +27,4 @@ while True:
         os.remove('./images/output' + str(x) + '.png' )
         x = x + 1
 
-    time.sleep(20)
+    time.sleep(10)

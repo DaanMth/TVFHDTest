@@ -2,16 +2,17 @@ var imgs = [];
 var imgIndex = -1;
 var img;
 var paint;
-var subStep = 800;
+var subStep = 1600;
 var z = 0;
 var isStop = false;
 var lineCount = 0;
 var deleteDelay = -2;
 imageCount = 0;
 let showSpotlights = false;
+stopwatch = 0;
 
 function preload() {
-  imgs[imageCount] = loadImage("./images/output2.png");
+  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
   console.log(imgs);
   console.log(imgIndex);
 }
@@ -33,6 +34,7 @@ function setup() {
 }
 
 function draw() {
+  stopwatch++
   if (!isStop) {
     for (var i = 0; i < subStep; i++) {
       paint.update();
@@ -41,11 +43,13 @@ function draw() {
     }
   }
   lineCount++;
-  if (lineCount > width) {
+  if (stopwatch ===  > width) {
     isStop = true;
     lineCount = 0;
   }
   if(isStop == true){
+    nextImage();
+    isStop = false;
   }
 }
 
