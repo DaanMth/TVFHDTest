@@ -17,9 +17,10 @@
 
 .space-between {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
+    gap: 12px;
 }
 
 .wordcloud {
@@ -51,8 +52,8 @@ h2 {
     font-family: 'Tangerine', sans-serif;
     font-size: 130px;
     line-height: 100%;
-
 }
+
 p {
     line-height: 160%;
     margin-bottom: 0;
@@ -84,8 +85,8 @@ body.active {
 }
 
 
-.image,img {
-    object-fit: cover;
+img {
+    object-fit: contain;
     height: auto;
     width: 100%;
     border-radius: 32px;
@@ -135,7 +136,6 @@ body.active {
     position: relative;
   }
 
-
 .wrapper.active .shadow {
     position: absolute;
     width: 200vw;
@@ -167,4 +167,17 @@ canvas {
     border-radius: 50%;
     box-shadow: 0 0 13px 5px rgba(255, 255, 255, 50.0);
     outline: none;
-} 
+}
+
+.images {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note {
+    filter: grayscale(100%);
+    width: 45%;
+    height: auto;
+}

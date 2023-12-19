@@ -13,23 +13,21 @@ subreddit = reddit_read_only.subreddit("malementalhealth")
 posts = subreddit.hot(limit=50000)
 
 # Dictionary to store the posts' data
-posts_dict = {"Title": [], "Post Text": [],"Post URL": []}
+posts_dict = {"title": [], "text": [], "url": []}
 
 post_count = 0
 
 # Loop through the posts and collect data
 for post in posts:
     # Check if the post's flair matches the desired flair
-    if ((post.link_flair_text == "Vent" or post.link_flair_text == "Seeking Guidance")
-    and len(post.selftext) >= 350
-    and len(post.selftext) <= 1000
-    and len(post.title) <= 200
+    if (post.link_flair_text == "Vent"
+    and len(post.selftext) > 3000
     and "youtube" not in post.url.lower()
     and "youtu.be" not in post.url.lower()
     and "i.redd.it" not in post.url.lower()):
-        posts_dict["Title"].append(post.title)
-        posts_dict["Post Text"].append(post.selftext)
-        posts_dict["Post URL"].append(post.url)
+        posts_dict["title"].append(post.title)
+        posts_dict["text"].append(post.selftext)
+        posts_dict["url"].append(post.url)
         post_count += 1
 
     if post_count >= 120:
