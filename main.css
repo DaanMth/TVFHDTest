@@ -6,6 +6,14 @@
     font-family: Paprika;
     src: url();
 }
+@font-face {
+    font-family: Annie Use Your Telescope;
+    src: url();
+}
+@font-face {
+    font-family: Tangerine;
+    src: url();
+}
 
 body {
     margin: unset;
@@ -23,13 +31,17 @@ body {
 
 }
 h1 {
-    font-family: 'Beth Ellen', sans-serif;
+    font-family: 'Annie Use Your Telescope', sans-serif;
     margin: unset;
-    line-height: 120%;
+    line-height: 100%;
 }
 
 h2 {
     margin: unset;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 95px;
+    line-height: 100%;
+
 }
 p {
     line-height: 160%;
@@ -94,7 +106,7 @@ body.active {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 100px;
+    top: 60px;
     font-weight: bold;
     font-size: 200%;
 }

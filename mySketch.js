@@ -16,11 +16,6 @@ var posts = [
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18lsk6i\/having_a_previous_relationship_does_not_make_u\/"
   },
   {
-    "title": "There is some kind of comfort of having experience a relationship, even if its just one relationship because even if it ends you at least know you dating is possible for you.",
-    "text": "What I'm trying to say is men who dated and had relationship experience have this comfort in knowing they are dateable people and the **choice** to continue dating or not.\n\nMen who never dated or had relationships well into their mid 20s and early 30s will never have that comfort in knowing that they are dateable because they never experienced it.\n\n&#x200B;",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18l10dv\/there_is_some_kind_of_comfort_of_having\/"
-  },
-  {
     "title": "It feels so painful to have attraction but not being naturally attractive yourself",
     "text": "It's hard to cope with life knowing that Im naturally unattractive. Obviously I can improve some parts of how I look but that is not my point. \n\nI know comparison is thief of joy but seeing guys who are naturally taller or have natural jaw line, nice facial features makes me sad knowing I don't have anythose yet I'm attracted to women with beautiful features.\n\n\nIt just feels like curse to be an unattractive man who is attracted to average - beautiful women",
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18kl7tl\/it_feels_so_painful_to_have_attraction_but_not\/"
