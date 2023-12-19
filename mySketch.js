@@ -206,11 +206,6 @@ var posts = [
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17u1w00\/i_wish_i_could_be_the_person_who_i_am_drunk_all\/"
   },
   {
-    "title": "Resources for Depression Recovery?",
-    "text": "Anything. Websites, video series, books, activities, guided meditations, supplements, herbs, articles.\n\nI've struggled with this for a really long time but I also really really don't want to take meds I don't like how they make me feel I don't like how long it takes to taper off them I don't like the side effects and I don't like how they're often so ineffective! \n\nAt the very least I want to function and be productive even if I feel like shit I need ways to force myself to function like a regular person or close to it.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17ua0vo\/resources_for_depression_recovery\/"
-  },
-  {
     "title": "What to do when I lost a little respect for my parents",
     "text": "Saw my mother drinking by herself the other day and she passed out on the floor hitting her eye and bleeding needing to go to the hospital she claims she passed out because she\u2019s diabetic and not healthy. I live with my parents as I\u2019m studying in uni and I wish to respect her because she\u2019s my mom but I can\u2019t help but feel like a lost a little bit of respect",
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17tzdc2\/what_to_do_when_i_lost_a_little_respect_for_my\/"
@@ -357,7 +352,7 @@ var posts = [
   },
   {
     "title": "An apology to Men on behalf of psychotherapists",
-    "text": "Men who seek mental health support deserve therapists who can empathize with them, and understand their needs. Unfortunately, that's not always what they get. \n\nMen often find themselves with therapists who aren't aware of their own anti-male biases, who think it's cool to denigrate men for how they deal with their emotions, or who don't know that men often need an approach that's different from the approach that women need.\n\nhttps:\/\/www.mg-counseling.com\/blog\/an-apology-to-men-on-behalf-of-therapists-counseling-texas",
+    "text": "Men who seek mental health support deserve therapists who can empathize with them, and understand their needs. Unfortunately, that's not always what they get. \n\nMen often find themselves with therapists who aren't aware of their own anti-male biases, who think it's cool to denigrate men for how they deal with their emotions, or who don't know that men often need an approach that's different from the approach that women need.",
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/171bw77\/an_apology_to_men_on_behalf_of_psychotherapists\/"
   },
   {
@@ -376,28 +371,25 @@ var posts = [
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/16z7555\/only_guy_in_my_mental_health_program\/"
   },
   {
-    "title": "I don't know if I should help my male friends who complain about being single or if it's a lost cause.",
-    "text": "So I have a few friends who almost always post something on Facebook about how women always want a guy that isn't their type yet always share posts that bash women for going for the bad guys and then crying about it or posts about women talking down on men and vice versa. They always comment on them with things like \"Yeah, women don't want us until it's too late\" or other things like that. Another thing that makes it weird is that they assume I am like them, someone who bashes women for not wanting to date me, because I never dated. I tried talking to one of them about it once and explained that I don't hate women just because I used to get rejected. I explained that although I have been rejected I don't make it my personality and I have other hobbies, but he would complain a lot in community college about it. I just feel awkward whenever I see them post stuff on Facebook like incels and I am wondering if I can help them stop or if they're in too deep.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/16z5dz1\/i_dont_know_if_i_should_help_my_male_friends_who\/"
-  },
-  {
     "title": "I cant live being a virgin anymore",
     "text": "Everyone I know has sex and it makes me feel like less of an adult, having sex is a requirement to be an adult. \n\nI get extremely jealous knowing everyone else is getting to experience a basic human need apart from me. \n\nI\u2019ve done everything I can to better myself and make myself as attractive as I can but there\u2019s no point. \n\nI\u2019ve accepted all I can do now is kill my self",
     "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/16yr28s\/i_cant_live_being_a_virgin_anymore\/"
   }
 ]
-
 function preload() {
   loadTime = new Date().getTime();
-  imgs[imageCount] = loadImage("./images/output" + imageCount  + ".png");
+  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
   document.getElementById("story-title").innerHTML = posts[imageCount].title;
   document.getElementById("story").innerHTML = posts[imageCount].text;
 
-  console.log(posts[imageCount].text.length + posts[imageCount].title.length)
   document.getElementById("wordcloud").style.display = "block";
-  if (posts[imageCount].text.length + posts[imageCount].title.length > 880) {
+  if (posts[imageCount].text.length + (posts[imageCount].title.length * 2) > 900) {
     document.getElementById("wordcloud").style.display = "none";
   }
+
+  var wordcloudcount = imageCount % 4 + 1
+  document.getElementById("wordcloud-image").src = "./assets/wordcloud" + wordcloudcount + ".png";
+
 }
 
 function windowHeight() {
@@ -431,10 +423,10 @@ function draw() {
   var currentTime = new Date().getTime();
 
   if (currentTime - loadTime > 60000) {
-      isStop = true;
+    isStop = true;
   }
 
-  if(isStop == true){
+  if (isStop == true) {
     nextImage();
     isStop = false;
   }
@@ -456,8 +448,7 @@ function fset(i, j, c) {
 }
 
 function keyPressed() {
-  console.log(key);
-  if(key === 'N')
+  if (key === 'N')
     nextImage();
   if (key === 's' || key === 'S') {
     isStop = !isStop;
@@ -488,7 +479,8 @@ function mouseClicked() {
   }
 }
 
-function touchStarted() {}
+function touchStarted() {
+}
 
 function nextImage() {
   if (!img) return;
