@@ -15,6 +15,16 @@
     src: url();
 }
 
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wordcloud {
+    margin-bottom: 24px;
+}
 body {
     margin: unset;
     background: black;
@@ -45,6 +55,7 @@ h2 {
 }
 p {
     line-height: 160%;
+    margin-bottom: 0;
 }
 
 body.active {
@@ -66,16 +77,12 @@ body.active {
 }
 
 .text {
-    position: absolute;
     font-weight: bold;
     font-size: 28px;
     color: #333;
     z-index: -1;
 }
 
-.image {
-    position: absolute;
-}
 
 .image,img {
     object-fit: cover;
@@ -120,6 +127,7 @@ body.active {
 }
 
 .container {
+    position: absolute;
     width: 32%;
 }
 
