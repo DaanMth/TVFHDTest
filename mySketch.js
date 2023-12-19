@@ -392,6 +392,12 @@ function preload() {
   imgs[imageCount] = loadImage("./images/output" + imageCount  + ".png");
   document.getElementById("story-title").innerHTML = posts[imageCount].title;
   document.getElementById("story").innerHTML = posts[imageCount].text;
+
+  console.log(posts[imageCount].text.length + posts[imageCount].title.length)
+  document.getElementById("wordcloud").style.display = "block";
+  if (posts[imageCount].text.length + posts[imageCount].title.length > 880) {
+    document.getElementById("wordcloud").style.display = "none";
+  }
 }
 
 function windowHeight() {
@@ -408,6 +414,10 @@ function setup() {
   paint = new Paint(createVector(width / 2, height / 2));
   background(255, 255, 255);
   colorMode(RGB, 255, 255, 255, 255);
+  var text = "";
+  posts.map((post, index) => {
+    text += post.text + " ";
+  });
 }
 
 function draw() {
@@ -447,6 +457,8 @@ function fset(i, j, c) {
 
 function keyPressed() {
   console.log(key);
+  if(key === 'N')
+    nextImage();
   if (key === 's' || key === 'S') {
     isStop = !isStop;
   }

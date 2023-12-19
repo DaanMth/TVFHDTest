@@ -39,7 +39,7 @@ h1 {
 h2 {
     margin: unset;
     font-family: 'Tangerine', sans-serif;
-    font-size: 95px;
+    font-size: 130px;
     line-height: 100%;
 
 }
@@ -82,7 +82,6 @@ body.active {
     height: auto;
     width: 100%;
     border-radius: 32px;
-    filter: grayscale(100%);
 }
 
 .left {
@@ -94,6 +93,9 @@ body.active {
     text-align: right;
 }
 
+.grayscale {
+    filter: grayscale(100%);
+}
 .top {
     top: 12px;
 }
@@ -106,7 +108,7 @@ body.active {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 60px;
+    top: 40px;
     font-weight: bold;
     font-size: 200%;
 }
@@ -114,7 +116,7 @@ body.active {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    bottom: 0;
+    bottom: 40px;
 }
 
 .container {
@@ -144,6 +146,12 @@ body.active {
 
 .wrapper {
     display: none;
+}
+
+.image.left {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 canvas {
