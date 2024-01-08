@@ -2,14 +2,17 @@
     font-family: Beth Ellen;
     src: url();
 }
+
 @font-face {
     font-family: Paprika;
     src: url();
 }
+
 @font-face {
     font-family: Annie Use Your Telescope;
     src: url();
 }
+
 @font-face {
     font-family: Tangerine;
     src: url();
@@ -33,6 +36,7 @@
     gap: 36px;
     transform: translateY(23%);
 }
+
 body {
     margin: unset;
     background: black;
@@ -48,6 +52,7 @@ body {
     font-family: 'Paprika', sans-serif;
 
 }
+
 h1 {
     font-family: 'Annie Use Your Telescope', sans-serif;
     margin: unset;
@@ -94,6 +99,8 @@ body.active {
 }
 
 
+
+
 img {
     object-fit: contain;
     height: auto;
@@ -105,6 +112,7 @@ img {
     left: 24px;
     text-align: left;
 }
+
 .right {
     right: 24px;
     text-align: right;
@@ -113,6 +121,7 @@ img {
 .grayscale {
     filter: grayscale(100%);
 }
+
 .top {
     top: 12px;
 }
@@ -129,6 +138,7 @@ img {
     font-weight: bold;
     font-size: 200%;
 }
+
 .bottom-middle {
     left: 50%;
     transform: translateX(-50%);
@@ -143,7 +153,7 @@ img {
 
 .spotlight-container {
     position: relative;
-  }
+}
 
 .wrapper.active .shadow {
     position: absolute;
@@ -155,7 +165,7 @@ img {
     transition: background 0.3s ease; /* Add a smooth transition effect */
     z-index: 0;
     background: radial-gradient(circle at center, transparent 13%, black 16%);
-  }
+}
 
 .wrapper.active {
     display: flex;
