@@ -6,7 +6,26 @@
     font-family: Paprika;
     src: url();
 }
+@font-face {
+    font-family: Annie Use Your Telescope;
+    src: url();
+}
+@font-face {
+    font-family: Tangerine;
+    src: url();
+}
 
+.space-between {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 12px;
+}
+
+.wordcloud {
+    margin-bottom: 24px;
+}
 body {
     margin: unset;
     background: black;
@@ -23,16 +42,21 @@ body {
 
 }
 h1 {
-    font-family: 'Beth Ellen', sans-serif;
+    font-family: 'Annie Use Your Telescope', sans-serif;
     margin: unset;
-    line-height: 120%;
+    line-height: 100%;
 }
 
 h2 {
     margin: unset;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 130px;
+    line-height: 100%;
 }
+
 p {
     line-height: 160%;
+    margin-bottom: 0;
 }
 
 body.active {
@@ -56,23 +80,18 @@ body.active {
 }
 
 .text {
-    position: absolute;
     font-weight: bold;
     font-size: 28px;
     color: #333;
     z-index: -1;
 }
 
-.image {
-    position: absolute;
-}
 
-.image,img {
-    object-fit: cover;
+img {
+    object-fit: contain;
     height: auto;
     width: 100%;
     border-radius: 32px;
-    filter: grayscale(100%);
 }
 
 .left {
@@ -84,6 +103,9 @@ body.active {
     text-align: right;
 }
 
+.grayscale {
+    filter: grayscale(100%);
+}
 .top {
     top: 12px;
 }
@@ -96,7 +118,7 @@ body.active {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    top: 100px;
+    top: 40px;
     font-weight: bold;
     font-size: 200%;
 }
@@ -104,17 +126,17 @@ body.active {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    bottom: 0;
+    bottom: 40px;
 }
 
 .container {
+    position: absolute;
     width: 32%;
 }
 
 .spotlight-container {
     position: relative;
   }
-
 
 .wrapper.active .shadow {
     position: absolute;
@@ -136,9 +158,28 @@ body.active {
     display: none;
 }
 
+.image.left {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
 canvas {
     z-index: 99;
     border-radius: 50%;
     box-shadow: 0 0 13px 5px rgba(255, 255, 255, 50.0);
     outline: none;
-} 
+}
+
+.images {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note {
+    filter: grayscale(100%);
+    width: 45%;
+    height: auto;
+}
