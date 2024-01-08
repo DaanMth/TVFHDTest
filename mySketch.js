@@ -7,12 +7,13 @@ var z = 0;
 var isStop = false;
 var lineCount = 0;
 imageCount = 0;
+textCount = 0;
 stopwatch = 0;
 var loadTime;
 var posts = [
   {
     title: "Should I just end it all",
-    text: " weI\u2019m probably not going to get any women to look at me as anything more than dirt on her shoe even if I do just work on myself and yeah I know there\u2019s more to life than women but like according to any older person I\u2019ve talked to it seems I\u2019ve lived through the best years (I\u2019m 19 now) so like the fucks point for me to keep going I\u2019m mean absolutely nothing now and I\u2019ll probably stay just as worthless for the rest of my I\u2019m just that weird kid that people talk to because they feel bad and my family puts so much time and energy into me and I can\u2019t understand why my sister is way more like to make them proud and amount to something I mean she going to Harvard for fucks sake I don\u2019t even share their last name sence they\u2019re my step family and I\u2019m barely going into community college with no idea with what I\u2019m gonna do with my life at this point my best bet is to eather just give up or just join the military and go die in whatever war they send me off to at least then people could say my life actually ment something \n\n\nTLDR:it\u2019s just me whining and bitching to the internet\n\nI\u2019m probably going to get cooked in the comments anyway ",
+    text: " weI\u2019m probably not going to get any women to look at me as anything more than dirt on her shoe even if I do just work on myself and yeah I know there\u2019s more to life than women but like according to any older person I\u2019ve talked to it seems I\u2019ve lived through the best years so like the fucks point for me to keep going I\u2019m mean absolutely nothing now and I\u2019ll probably stay just as worthless for the rest of my I\u2019m just that weird kid that people talk to because they feel bad and my family puts so much time and energy into me and I can\u2019t understand why my sister is way more like to make them proud and amount to something I mean she going to Harvard for fucks sake I don\u2019t even share their last name sence they\u2019re my step family and I\u2019m barely going into community college with no idea with what I\u2019m gonna do with my life at this point my best bet is to eather just give up or just join the military and go die in whatever war they send me off to at least then people could say my life actually ment something \n\n\nTLDR:it\u2019s just me whining and bitching to the internet\n\nI\u2019m probably going to get cooked in the comments anyway ",
     url: "https://www.reddit.com/r/malementalhealth/comments/191grvw/should_i_just_end_it_all/",
   },
   {
@@ -33,7 +34,7 @@ var posts = [
   },
   {
     title: "Zoloft Day 40/41/42 - new years resolutions? Tell me yours.",
-    text: "I honestly need to change for the better this year. I haven't really sat down and wrote any goals. I'm thinking of doing it when I get off work. I'll probably just go to sleep though because I only got one hour. \nI was so drunk I don't even know how or why I was up so late. \n\nI'm feeling really motivated right now though and I suppose that's how every year starts. I know a new year doesn't really change anything but it's funny how it can switch up your mindset. \n\nI've honestly been doing a lot these past couple days. I'm realizing how much I can do now when I'm not just moping around feeling sorry for myself.\n\n1. I guess for now I really just want to focus on my finances.\n\n2. Getting my drivers license so I can get a car.\n\n3. Being a better person and working on my relationships. \n\n4. Brushing and showering regularly.\n\n5. Finding and focusing more on my hobbies.\n\n6. Continuing to read more. \n\nI'll probably switch up the order because #4 should probably be #1. \ud83d\ude02 It's just some ideas for goals though. I gotta plan the step now to accomplish them, but I feel these will greatly improve my mental health. I plan on taking my pills for a few more months.",
+    text: "I honestly need to change for the better this year. I haven't really sat down and wrote any goals. I'm thinking of doing it when I get off work. I'll probably just go to sleep though because I only got one hour. \nI was so drunk I don't even know how or why I was up so late. \n\nI'm feeling really motivated right now though and I suppose that's how every year starts. I know a new year doesn't really change anything but it's funny how it can switch up your mindset. \n\nI've honestly been doing a lot these past couple days. I'm realizing how much I can do now when I'm not just moping around feeling sorry for myself.\n\n1. I guess for now I really just want to focus on my finances.\n\n2. Getting my drivers license so I can get a car.\n\n3. Being a better person and working on my relationships. \n\n4. Brushing and showering regularly.\n\n5. Finding and focusing more on my hobbies.\n\n6. Continuing to read more. \n\nI'll probably switch up the order because #4 should probably be #1. It's just some ideas for goals though. I gotta plan the step now to accomplish them, but I feel these will greatly improve my mental health. I plan on taking my pills for a few more months.",
     url: "https://www.reddit.com/r/malementalhealth/comments/18z2jtf/zoloft_day_404142_new_years_resolutions_tell_me/",
   },
   {
@@ -103,7 +104,7 @@ var posts = [
   },
   {
     title: "Antidepressants Day 2: yuh I'm fucked up..",
-    text: "It was rough. Got praised again at work . I ask myself if it really even means anything to me. I don't think it does. And if I'm not perfect, then your praise means nothing. \n\nI really do try my best, but to me it feels like nothing. Anyways I don't wanna bring my work home. I'm gonna try harder tomorrow.\n\nI was actually pretty down today. About what? I don't really know. I Just didn't feel good about myself. I miss her. \n\nI still got some bullshit to deal with. I bought myself a couple Christmas presents I'm looking forward too. I received two today. I'm pretty happy with them. I really know what I wanted this year. It shows I care about myself lol. \n\nUghghghhh. ...  I went out to dinner tonight. I finished all of it! I feel sick about myself. It wasn't really that great of food.\n\nI'd have preferred the other restaurant but when I arrived the sign said, \"closed. Out of business\".\n\nA other person's dreams crushed is really all I saw... \n\nThen I came home and finished off this bottle of whiskey. \n\nI'm jamming rn. Got my music blasting before I drift off and wake up to face another day. \ud83d\ude01\ud83d\ude01\n\nThanks giving us coming up. Ik for aot of us tomorrow is our last work day! What's your plans????????",
+    text: "It was rough. Got praised again at work . I ask myself if it really even means anything to me. I don't think it does. And if I'm not perfect, then your praise means nothing. \n\nI really do try my best, but to me it feels like nothing. Anyways I don't wanna bring my work home. I'm gonna try harder tomorrow.\n\nI was actually pretty down today. About what? I don't really know. I Just didn't feel good about myself. I miss her. \n\nI still got some bullshit to deal with. I bought myself a couple Christmas presents I'm looking forward too. I received two today. I'm pretty happy with them. I really know what I wanted this year. It shows I care about myself lol. \n\nUghghghhh. ...  I went out to dinner tonight. I finished all of it! I feel sick about myself. It wasn't really that great of food.\n\nI'd have preferred the other restaurant but when I arrived the sign said, \"closed. Out of business\".\n\nA other person's dreams crushed is really all I saw... \n\nThen I came home and finished off this bottle of whiskey. \n\nI'm jamming rn. Got my music blasting before I drift off and wake up to face another day. \nThanks giving us coming up. Ik for aot of us tomorrow is our last work day! What's your plans????????",
     url: "https://www.reddit.com/r/malementalhealth/comments/1810snr/antidepressants_day_2_yuh_im_fucked_up/",
   },
   {
@@ -124,7 +125,7 @@ var posts = [
   {
     title:
       "Dating apps (tinder & hinge) has absolutely destroyed any sense of self worth and made me completely suicidal.",
-    text: "title says it all really. I've always been quiet shy, never had any attention from opposite sex growing up, I know I'm ugly but never truly understood it's this bad.\n\nThe experience of trying to put myself out there for the first time ever was a disaster. I had one match and her reply was \ud83e\udd22 then unmatched me.  I guess her friend matched me for a prank.\n\nNo likes, nothing else. Not a single message about anything, I have achieved a decent amount in my years alive, masters degree, chess and pool championships, I make average money for my age around $50k, came from poverty but the worst is my looks. \n\nand no I'm not expecting to be a model and have any woman I want, I like the idea of someone genuinely liking my company, and I enjoy theirs, that's it. \n\nThe requirements are like a never ending Stairmaster. I suppose my genetics deserve this, they deserve to die out because of how bad they are. \n\nI've decided getting wealthy is my goal but this isn't to get women. It's so I can enjoy at least a few things in life like supercars, jet skiing and travel. If it doesn't happen by 30 then I will be exiting life.",
+    text: "title says it all really. I've always been quiet shy, never had any attention from opposite sex growing up, I know I'm ugly but never truly understood it's this bad.\n\nThe experience of trying to put myself out there for the first time ever was a disaster. I had one match and her reply was \"yuck\" then unmatched me.  I guess her friend matched me for a prank.\n\nNo likes, nothing else. Not a single message about anything, I have achieved a decent amount in my years alive, masters degree, chess and pool championships, I make average money for my age around $50k, came from poverty but the worst is my looks. \n\nand no I'm not expecting to be a model and have any woman I want, I like the idea of someone genuinely liking my company, and I enjoy theirs, that's it. \n\nThe requirements are like a never ending Stairmaster. I suppose my genetics deserve this, they deserve to die out because of how bad they are. \n\nI've decided getting wealthy is my goal but this isn't to get women. It's so I can enjoy at least a few things in life like supercars, jet skiing and travel. If it doesn't happen by 30 then I will be exiting life.",
     url: "https://www.reddit.com/r/malementalhealth/comments/17ulb0p/dating_apps_tinder_hinge_has_absolutely_destroyed/",
   },
   {
@@ -172,8 +173,8 @@ var posts = [
 function preload() {
     loadTime = new Date().getTime();
     imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
-    document.getElementById("story-title").innerHTML = posts[imageCount].title;
-    document.getElementById("story").innerHTML = posts[imageCount].text;
+    document.getElementById("story-title").innerHTML = posts[textCount].title;
+    document.getElementById("story").innerHTML = posts[textCount].text;
 }
 
 function windowHeight() {
@@ -276,6 +277,10 @@ function nextImage() {
     background(255, 255, 255);
     preload();
     imageCount++;
+    textCount++ 
+    if (textCount > 29){
+      textCount = 0;
+    }
     console.log("switching image to: " + imgIndex);
 }
 
