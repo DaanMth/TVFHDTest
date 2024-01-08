@@ -10,15 +10,14 @@ import os
 
 url = "http://127.0.0.1:7860"
 
-ethnicities = ["African", "Asian", "Caucasian", "Hispanic", "Native American", "Middle Eastern", "Pacific Islander"]
-ages = [" 15-20", " 10-15", " 20-25"," 25-30", " 30-40", "40-50", "60-90"]
+ethnicities = ["white", "African", "Asian", "Caucasian", "Hispanic", "Middle Eastern", "Pacific Islander"]
 
-i=24
+i=46
 x=2
 
 while True:
     payload = {
-        "prompt": "<lora:Better Portrait Lighting:1>A black and white picture of a " + random.choice(ethnicities) +  " man with the age between " + random.choice(ages) + "with different cultural backgrounds with a smooth white background",
+        "prompt": "<lora:Better Portrait Lighting:1>A black and white picture of a " + random.choice(ethnicities) +  " man with the age between " + str(random.randint(18, 80))+ "with different cultural backgrounds with a smooth white background, detailed eyes",
         "steps": 20
     }
     response = requests.post(url=f'{url}/sdapi/v1/txt2img', json=payload)
