@@ -11,371 +11,164 @@ stopwatch = 0;
 var loadTime;
 var posts = [
   {
-    "title": "Having a previous relationship does not make u happy",
-    "text": "I see so many people yearn for someone here. News flash guys. Even if you get a girl it will not change a thing.\n\nHappiness comes from within. Ive done the whole relationship and fall in love thing.\n\nAnd let me tell you it gets stale fast.\n\nIm 35 and single. And i dont care to get in a relationship. The older you get the lesss you give a fuck about being with someone.\n\nYall will grow out of it.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18lsk6i\/having_a_previous_relationship_does_not_make_u\/"
+    title: "Should I just end it all",
+    text: " weI\u2019m probably not going to get any women to look at me as anything more than dirt on her shoe even if I do just work on myself and yeah I know there\u2019s more to life than women but like according to any older person I\u2019ve talked to it seems I\u2019ve lived through the best years (I\u2019m 19 now) so like the fucks point for me to keep going I\u2019m mean absolutely nothing now and I\u2019ll probably stay just as worthless for the rest of my I\u2019m just that weird kid that people talk to because they feel bad and my family puts so much time and energy into me and I can\u2019t understand why my sister is way more like to make them proud and amount to something I mean she going to Harvard for fucks sake I don\u2019t even share their last name sence they\u2019re my step family and I\u2019m barely going into community college with no idea with what I\u2019m gonna do with my life at this point my best bet is to eather just give up or just join the military and go die in whatever war they send me off to at least then people could say my life actually ment something \n\n\nTLDR:it\u2019s just me whining and bitching to the internet\n\nI\u2019m probably going to get cooked in the comments anyway ",
+    url: "https://www.reddit.com/r/malementalhealth/comments/191grvw/should_i_just_end_it_all/",
   },
   {
-    "title": "It feels so painful to have attraction but not being naturally attractive yourself",
-    "text": "It's hard to cope with life knowing that Im naturally unattractive. Obviously I can improve some parts of how I look but that is not my point. \n\nI know comparison is thief of joy but seeing guys who are naturally taller or have natural jaw line, nice facial features makes me sad knowing I don't have anythose yet I'm attracted to women with beautiful features.\n\n\nIt just feels like curse to be an unattractive man who is attracted to average - beautiful women",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18kl7tl\/it_feels_so_painful_to_have_attraction_but_not\/"
+    title: "This torment has no end. Only new beginnings",
+    text: "I\u2019m an empty void. People acknowledge that I exist. People trust me to do things for them.\nPeople ask me to help them.\n\nYet no matter what I do, no matter how they treat me, it\u2019s never enough to fill the void that is my soul. I just tell myself it\u2019s because I\u2019ve never been loved, and no amount of self actualization changes that. \nBut I have a suspicion that even love won\u2019t fix me. \nBecause I\u2019m broken.\nNot like I\u2019ll ever find out.\n\nI\u2019m damaged goods, no one wants to love that. They\u2019ll pity me. Say \u201coh I\u2019m so sorry\u201d. But then they\u2019ll never talk to me ever again.\n\nBest friends, disappeared, gone, after I opened up to them. \n\n\u201cOh then they weren\u2019t true friends\u201d yeah NO ONE is and no one will be. \nDoesn\u2019t matter how much I help.\nHow much I encourage.\nSupport\nCare for\nMake laugh\nSpend time with\nLove.\n\nPeople can\u2019t love me. \n\n\u201cOh love yourself\u201d\nI try. And I\u2019m genuinely content in my life, but then my brain snaps out of the fever dream and decides it despises the boring basic life I live. It\u2019s why I am writing this.\n\nIdk what I want, actually. I just want to feel like I\u2019m not an invisible void in a world that hates me. \nI don\u2019t want to feel fundamentally broken. Incapable of living in this world",
+    url: "https://www.reddit.com/r/malementalhealth/comments/191c0lz/this_torment_has_no_end_only_new_beginnings/",
   },
   {
-    "title": "Talk to People that aren\u2019t there",
-    "text": "I have a very annoying issue that I can\u2019t figure out what is actually going on. Maybe it\u2019s that I want to express myself but I don\u2019t know. I have ADHD and depression. I spend multiple hours a day pacing around having conversations with people that aren\u2019t there. I know they aren\u2019t there and i don\u2019t see people so i know it\u2019s not exactly schizophrenia. It\u2019s embarrassing and not sure what to do about it. What is this even called? I do this every day. I waste so much time doing this that i can\u2019t get things accomplished.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18jv69o\/talk_to_people_that_arent_there\/"
+    title: "I hate how invisible I am.",
+    text: "I have worked on myself over the years. I gone to the gym, had my first boxing fight, have my own fashion style, I am a businessman and going to travel all of south East Asia as a digital nomad and been reading a lot. \n\nHowever, I get ignored by women everywhere they don't even look at me or they look down upon me. When I message left on read or just an emoji or cold shoulder. I have had girlfriends in the past and hooked up, but this is the longest I been without anything.\n\nI feel frustrated, defeated and just sad like what is so funking wrong with me that I am jot worth even loving? I can take all over the world and live an extraordinary life but I am overlooked like I am trash. I feel it's because I am indian even though born here.\n\nI feel my chest being sore and heart feels like wants to explod as just so fed up with not being enough.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/1902r7y/i_hate_how_invisible_i_am/",
   },
   {
-    "title": "Tell me why being a virgin is my fault.",
-    "text": "\n18m ugly short and autistic, never had a dad to teach me how to be a man and grew up in an incredibly abusive hysterical household with a mum and two sisters who need inpatient mental health care but are yet to receive it. \n\nI\u2019ve had terrible social anxiety and awareness my entire life. I\u2019ve been to therapy, I eat healthy and workout, I push myself constantly which is mental torture to be around new people all the time because people like to pretend that\u2019ll work. I put the effort in to look the best I can. \n\nNone of it matters, none of it works and I\u2019ll be alone forever. But everyone always claims it\u2019s the man\u2019s fault he\u2019s a virgin. Please tell me what part of this was my doing. What more can I do? I\u2019ve dedicated my life to this and gotten nothing. \n\nIf nothing changes soon I\u2019m going to end it all. I have everything ready to go, was already hospitalised for an attempt over the summer.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18jiucm\/tell_me_why_being_a_virgin_is_my_fault\/"
+    title:
+      "Day 43: I got home and went straight to bed. Just like I knew I would....",
+    text: "I thought I could do this. I thought I could be consistent and get everything that I had to do done. It's 20:55 though and I'm still just laying in bed. \n\nI know it's my own fault. I over worked myself. I overdid it with the alcohol. I'm so tired. \n\nI've been feeling lonely and distant from everyone. Maybe the holidays were too much. Maybe I'm just socially and mentally drained. I've been doubting myself.\n\nI've been lying to myself. I wasn't trying to wake up this morning. There I said it, now what? Yesterday morning wasn't an accident either. The scrapes on my knees hurt now but they didn't when I fell. I guess it's that numbness that I've been craving.\n\nI can't help but notice just how empty this house feels tonight. Nobody's here and nobody is coming. I'm pissed about all the things I could have done but haven't. \n\nTomorrow is another day to be someone different though. How long will I keep telling myself that before I actually make a change?",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18zqzte/day_43_i_got_home_and_went_straight_to_bed_just/",
   },
   {
-    "title": "A man in his mid to late 20s will never experience that \"first love\" experience and energy from a women even though that is his first love. Thats just sad and depressing.",
-    "text": "Pretty much the title.\nA man who never dated until his mid or late 20s which I think is becoming more common. Will never experience from a women that \"first love\" energy that she gave to the first guy she dated.\n\nMost men will end up with worn out tired\/broken women who really dont want to put any effort or energy to the current man shes dating even though thats the man first ever relationship",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18kag0u\/a_man_in_his_mid_to_late_20s_will_never\/"
+    title: "Zoloft Day 40/41/42 - new years resolutions? Tell me yours.",
+    text: "I honestly need to change for the better this year. I haven't really sat down and wrote any goals. I'm thinking of doing it when I get off work. I'll probably just go to sleep though because I only got one hour. \nI was so drunk I don't even know how or why I was up so late. \n\nI'm feeling really motivated right now though and I suppose that's how every year starts. I know a new year doesn't really change anything but it's funny how it can switch up your mindset. \n\nI've honestly been doing a lot these past couple days. I'm realizing how much I can do now when I'm not just moping around feeling sorry for myself.\n\n1. I guess for now I really just want to focus on my finances.\n\n2. Getting my drivers license so I can get a car.\n\n3. Being a better person and working on my relationships. \n\n4. Brushing and showering regularly.\n\n5. Finding and focusing more on my hobbies.\n\n6. Continuing to read more. \n\nI'll probably switch up the order because #4 should probably be #1. \ud83d\ude02 It's just some ideas for goals though. I gotta plan the step now to accomplish them, but I feel these will greatly improve my mental health. I plan on taking my pills for a few more months.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18z2jtf/zoloft_day_404142_new_years_resolutions_tell_me/",
   },
   {
-    "title": "Day 23\/24: I've been down. Really feels like there's a huge shouting match in my head all the time.",
-    "text": "I'm exhausted with these thoughts. I have one part of me saying, \"things are never gonna get better.\" I feel like I'm falling back into the person I was 5-6 years ago, that hopeless depressed teen. \n\nIt feels like I never really lost that person though. \n\nAnd then the other part is saying, \"look at all you've accomplished in the last 5 months! Things are really gonna start getting better!\". \n\nIf things are getting better then why do I drink to feel? Why do I drag myself out of bed in the morning? Why have I lost my values? Why have I stopped taking care of myself? \n\nI really don't want to write. I don't have the motivation. I feel these words don't really describe half of what I even want to say. Maybe in tonights post I can think more clearly.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18i9sy8\/day_2324_ive_been_down_really_feels_like_theres_a\/"
+    title:
+      "i wish people would stop pretending they understand me and pitying me",
+    text: 'no, im not shy, im just scared of people in general. im not "sad all the time", i just dont know how to feel so i stay expressionless. im not being bullied, i choose to not be included in friend groups and projects because i cant act normally around other people. \n\ni wish they would stop telling me they know how i feel. people always say that. its been years. its never gotten better.\n\n"you\'ll definitely make friends this year if you try your best to talk to others and be more vocal" no, everyone ended up just calling me a "depressed" or "weirdo", and im not either. trying just made it worse. \n\nand worst of all is how the teachers... pitied me so much. i didnt even talk during my slide presentation, they still gave me a pass. they keep asking me if im ok at home because of how "introverted" i am. they always seemed to pity me. i hate school so much.',
+    url: "https://www.reddit.com/r/malementalhealth/comments/18yb1sh/i_wish_people_would_stop_pretending_they/",
   },
   {
-    "title": "Day 21\/21 of SSRI: Who am I? Who are you?",
-    "text": "I often find myself asking this question. Dealing with this illness for the last 15 years has definitely taken a toll on many aspects of my life. It takes so much. \n\nI feel like over the years I've completely lost myself to this illness. can't be the only one who feels this way. I used have so many interests and can't remember when lost them.\n\nIt's taken my hobbies and pretty much all motivation to do anything. I just feel so lost all the time. \n\nI just don't know who I am anymore. I remember I used to be so interested in things and willing to learn. I couldn't give a fuck about anything now. \n\nI want myself back. \n\nWell... It's 08:20, and I'm sitting on the toilet hungover lol. Deep toilet thoughts.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18goak7\/day_2121_of_ssri_who_am_i_who_are_you\/"
+    title: "Zoloft Day 35/36/37/38/39 - 123123",
+    text: "The end is here. I'm alone by choice. The end of the year is always rough. I declined a lot of invites to go out today. I feel like a total piece of shit but I would just be a downer if I went anywhere. It's best that I'm alone. \n\nUnlike everyone else I don't really have anything to celebrate. I peaked in October and then it was just a straight nose dive down. It's like I had hope poured into me again but it didn't matter because there was still a hole in me from before. \n\nThis week has been confusing and very disappointing. The time goes by so quick. I haven't gotten anything done that I wanted to.\n\nI'm probably in the darkest time of my life and I don't think anyone even notices or cares. There's really nothing anyone could do. \n\nLife sucks a lot... \n\nI don't know why I'm like this. I think I'm just not happy with where I am. I'm never happy with where I'm at though. And I don't really even know what I want. I feel trapped I guess. \n\nTrapped by my illnesses. Trapped by my family. Trapped by my job. Trapped by myself. \n\nI just want to feel free without the help of this bottle.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18vmgv5/zoloft_day_3536373839_123123/",
   },
   {
-    "title": "shitty night",
-    "text": "i have close friends, but just don\u2019t ever feel comfortable talking to them when i\u2019m going through shit. it\u2019s so frustrating that it\u2019s so much harder for guys to get shit off their chest. every time i\u2019m down, all i can do is hope one of my buddies will play video games with me or something to distract myself. \n\neverything is just downhill right now. i can\u2019t get a job no matter how hard i try. me and my girlfriend keep arguing because i don\u2019t like one of her friends. all i can motivate myself to do is play video games and drink. i feel like such a loser.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18g7xvg\/shitty_night\/"
+    title: "Day 29/30/31/32 on SSRI: Why am I watching so much porn?",
+    text: " I feel so gross. I couldn't even watch porn or masturbate a month ago but lately I've just been so down. I still don't even feel like watching porn or masturbating but I just feel so empty, so alone.  \n\n\nI've been getting to work and it's straight to watching porn. I get home from work and I watch porn and jerk off in the shower. I go to my other job and watch porn. I get home and watch porn before going to sleep... I'll be so tired too.  \n\n\nI still don't even wanna watch porn or jerk off but I just want to feel something. What's worse is I need to be completely fucked up if I'm gonna jerk off.  \n\n\nI guess it's that time of year where everyone seems to have somebody... And then there's me... The one who's always alone.  \n\n\nI get it, I suck, there's nothing special about me. Why would anyone wanna to be with me?   \n\n\nI'm always such a mess. I don't deserve anybody. I'll never be stable enough to keep anyone around. I'm too boring and I'm weird. ",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18pc1rn/day_29303132_on_ssri_why_am_i_watching_so_much/",
   },
   {
-    "title": "A portrait of a man",
-    "text": "\/Felt like writing a poem. \/\n\n\n\n\n\n\n\nHe must always be there \n\nBe unchanged, just for the better \n\n\nIt's important, difficult, unnecessary, trivial \n\nHis eyes are shifting, tired, attentive \n\nEmpty \n\nShe is his prey, the center of the universe\n\n\n He will give her everything, nothing, a house with a garden\n\n\n Heartless, but he hid his loved ones deep inside\n\n \nCold volcano of passion \n\nStrong but fragile \n\nQuiet but talkative\n\nMysterious, you read him like an open book\n\nHe doesn't know what love is, he died for his loved ones \n\nHe doesn't remember, he hasn't forgotten \n\nHe doesn't know what the spoon is for, he'll prepare a feast\n\nMature, as usual, mature, still mature\n\nHe climbed a mountain made of his own pain \n\nHe filled his own corner with real and pipe dreams \n\nA wood saw, a bandage and bitter coffee\n\n\nIs he still working or has he had enough sleep? \n\nLater, tomorrow, someday.\n\nEither he loves her or he is toying with her \n\nFor good, not good \n\n\nAnd for God's sake",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18g7o4f\/a_portrait_of_a_man\/"
+    title:
+      "What\u2019s The Point of Doing a Depression Screening If You\u2019re not going to Talk to Me About It",
+    text: "I just went to my general practitioner for some refills.  The nurse decides we need to do a depression screening.  So I have to read all these questions with her and answer how often I\u2019m experiencing certain things.  \n\nI\u2019m shaken up by it a bit, it\u2019s not easy to acknowledge out loud how I\u2019m feeling. I was honest and my answers were worse than the last time so at least the doctor will talk to me about it more than the other doctor did before.  \n\nNope, not at all.  She went through my meds, ordered all my refills, and reminded me that I should exercise to help my blood pressure.   She was actually better than my regular doctor.  \n\nBut what\u2019s the point of dredging all this up to the surface if they\u2019re not even going to talk to me about it.   Now I\u2019m sitting here trying not to cry into my soup in the middle of this diner.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18nszh1/whats_the_point_of_doing_a_depression_screening/",
   },
   {
-    "title": "I\u2019m kinda just\u2026 done with living",
-    "text": "Idk I just feel like there hasn\u2019t really been any true positive aspects in my life leading up to this point, and any time I try to make a positive out of my dealt cards it feels like God himself is actively trying to one up the bullshit I gotta deal with. Like he\u2019s just kicking back enjoying my misery and pain with a side of popcorn.\n\nFrom birth to now, 22 years of life. My childhood and youth is wasted and I\u2019ll never get it back. Nothing positive to look back on and a shitty present to experience in real time. Every aspect of my life that I can think of is fucked, family, friends, women\/loneliness, job, fucking everything. Feels like I\u2019m cursed sometimes.\n\nI\u2019m just kinda over it at this point. I\u2019m not even mad anymore, just tired. Just wanna end this bullshit and be done with it already.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18for75\/im_kinda_just_done_with_living\/"
+    title: "Tell me why being a virgin is my fault.",
+    text: "\n18m ugly short and autistic, never had a dad to teach me how to be a man and grew up in an incredibly abusive hysterical household with a mum and two sisters who need inpatient mental health care but are yet to receive it. \n\nI\u2019ve had terrible social anxiety and awareness my entire life. I\u2019ve been to therapy, I eat healthy and workout, I push myself constantly which is mental torture to be around new people all the time because people like to pretend that\u2019ll work. I put the effort in to look the best I can. \n\nNone of it matters, none of it works and I\u2019ll be alone forever. But everyone always claims it\u2019s the man\u2019s fault he\u2019s a virgin. Please tell me what part of this was my doing. What more can I do? I\u2019ve dedicated my life to this and gotten nothing. \n\nIf nothing changes soon I\u2019m going to end it all. I have everything ready to go, was already hospitalised for an attempt over the summer.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18jiucm/tell_me_why_being_a_virgin_is_my_fault/",
   },
   {
-    "title": "Day 17\/18\/19\/20 antidepressants: It's been quite the week.",
-    "text": "First two days were not too bad. I couldn't help but drink for almost all of these days. I'm starting to think maybe I'm a alcoholic. It's not like I'm drinking copious amounts though so I'm fine.\n\nThird day I told someone something I didn't think I would ever tell someone. It was a massive weight off of me. I'm really thinking I found someone special. And I hope my dumbass doesn't screw this up. \n\nLast two days I've been struggling with some episodes of DP\/DR. I couldn't really snap myself out and I got a little scared but I just rolled with it. \n\nOther than that I've been getting a lot done around the house and I think this is the cleanest I've kept the place.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18f5uf5\/day_17181920_antidepressants_its_been_quite_the\/"
+    title: "Just another vent post",
+    text: 'After months of counseling and dozens of medications life has only gotten worse.\n\nI have now managed to rack up thousands in medical bills and a lot of debt.  I am basically behind on everything with no hope of recovering.\n\nMy depression has been so bad I have lost all my customers and jobs.  Which in turn feeds my depression. So it is a vicous cycle.  The more I try to get help the worse my situation gets.\n\nThe doctors want to commit me now, which in turn only makes my situation worse.  The argument of "but you will get the help you need" doesn\'t account for the fact that it also will ruin my life more with crippling debt.  Who is going to pay for it all?  Surely not the doctors and counselors.  They only take my money every week.\n\nI am to the point that I hope and pray everyday for me to be taken out by a bus, truck, or anything that will pay my family.  But no one in my life understands, and no amount or type of medication can fix this.\n\nI am done with life but unfortunately life still enjoys kicking me while I am down, amd beating me way past submission.',
+    url: "https://www.reddit.com/r/malementalhealth/comments/18ib60n/just_another_vent_post/",
   },
   {
-    "title": "Navigating mental health taboos as a trans man",
-    "text": "Hello! I\u2019m an autistic trans man (FtM) in their early 30s and diagnosed with CPTSD, OCD, GAD, and ADHD.\n\nFor the past 8 or so years, I've been engaged in both Cognitive Behavioral Therapy (CBT) and trauma-focused therapy. Despite having a supportive team of therapists, the challenge lies in the societal pressures associated with being perceived as a man. While I've always valued empathy, compassion, and vulnerability, societal expectations now label me as \"too emotional for a man\" or challenge traditional views of male stoicism. \n\nI'm aware that cisgender men often face unrealistic expectations, and I'm curious to know how others navigate and reshape these damaging stereotypes surrounding men's mental health. How have y\u2019all worked towards breaking down and rebuilding these narratives in a healthier way? Do y\u2019all have any advice on how to navigate these societal constructs and normalize men being mentally and emotionally mature? \n\nAny input is greatly appreciated!",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18ew5ze\/navigating_mental_health_taboos_as_a_trans_man\/"
+    title: "A portrait of a man",
+    text: "/Felt like writing a poem. /\n\n\n\n\n\n\n\nHe must always be there \n\nBe unchanged, just for the better \n\n\nIt's important, difficult, unnecessary, trivial \n\nHis eyes are shifting, tired, attentive \n\nEmpty \n\nShe is his prey, the center of the universe\n\n\n He will give her everything, nothing, a house with a garden\n\n\n Heartless, but he hid his loved ones deep inside\n\n \nCold volcano of passion \n\nStrong but fragile \n\nQuiet but talkative\n\nMysterious, you read him like an open book\n\nHe doesn't know what love is, he died for his loved ones \n\nHe doesn't remember, he hasn't forgotten \n\nHe doesn't know what the spoon is for, he'll prepare a feast\n\nMature, as usual, mature, still mature\n\nHe climbed a mountain made of his own pain \n\nHe filled his own corner with real and pipe dreams \n\nA wood saw, a bandage and bitter coffee\n\n\nIs he still working or has he had enough sleep? \n\nLater, tomorrow, someday.\n\nEither he loves her or he is toying with her \n\nFor good, not good \n\n\nAnd for God's sake",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18g7o4f/a_portrait_of_a_man/",
   },
   {
-    "title": "I got told when I was 16 that I had aspergers. Now, 8 years later, I decided to go find out fully",
-    "text": "Currently, I cut off my mom from my life when she told me a month ago that \"I wanted you to be normal\", basically saying, that when she was informed that I have aspergers, she decided not to get help, even though there were tools and ways to guide me with it. But the thing is, there are no written records of it, only when she told me when I was 16. Currently working at a job and after 3 months, I can get a paper that allows me to get 6 weeks off and go find out at hospitals.\n\nDid anyone have anything similar, finding out something when your over 20 years old but finding out no one did anything about it? How did you cope, what did you do? All answers are appreciated",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18dkffh\/i_got_told_when_i_was_16_that_i_had_aspergers_now\/"
+    title: "Why even try if everything gets worse",
+    text: "Like the title says, for the past two years its just been tragedy after tragedy. I lost my apartment due to a relationship issue. Terrible toxic relationship where I would move in and out a couple times. Right now I am at my parents with no room or anything. I had to drop a class because my mental health is so poor this semester and it sucks because school was keeping me going. I am so tired, I can't be happy and I can't even cry even though I feel them coming. I am just so numb, I hate that i've been sad for more than half my life. I started taking meds at 11 or so. I am surprised I haven't killed myself yet and of course the bad people get rewarded as well. I've lost a couple jobs because of shitty bosses. I am so thankful I have a job rn and it's looking good bc management is actually nice but otherwise I have nothing to do outside of work and school. I am a loner, nobody to talk to because my parents are not the approachable type. I wish I had friends. I envy the people I see walk into my cafe that have people that care about them whether that be friends, a couple, family. I wish I had good things happen to me. I wish I still had hobbies. I wish I was okay. ",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18gapc8/why_even_try_if_everything_gets_worse/",
   },
   {
-    "title": "How do you need with having an anxious attachment style?",
-    "text": "Lately been feeling like a lot of my friendships were actually just me being something they hyperfixated on for a bit and now they\u2019re not as interested in me. Which is a clear sign to me of an anxious attachment style. \n\nI\u2019ve only recently learned about the different types of attachment styles, but how do you deal with this one internally in particular?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18clyv0\/how_do_you_need_with_having_an_anxious_attachment\/"
+    title:
+      "I'm scared, and even though I have everything I feel I deserve nothing.",
+    text: "I'm sick of pretending I have value outside of my abilities, half of me tells me I'm unworthy, while the other half tears me in the other direction.\n\nI have so many blessings, a fiancee who loves me, a future, a decent blue collar job, family, etc. but I feel this self destructive desire for hatred and loss. \n\nI think about suicide, but I'm too much of a coward to do anything. Am I suicidal? Probably not, more likely a selfish dick who wants attention I don't even know anymore. I have this hanging hunger for misery but I don't want to damage those around me anymore than I already have. I don't know what's worse, sticking around being a burden, or leaving them to deal with the aftermath of I leave.\n\nThere are so many people who deserve the oxygen I'm breathing more than I do. I don't know what I am anymore. Damaged, proud and stuck up, sick in the head, or just fucked up all around. I'm sorry, I just don't know what to do anymore.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18clk06/im_scared_and_even_though_i_have_everything_i/",
   },
   {
-    "title": "I'm scared, and even though I have everything I feel I deserve nothing.",
-    "text": "I'm sick of pretending I have value outside of my abilities, half of me tells me I'm unworthy, while the other half tears me in the other direction.\n\nI have so many blessings, a fiancee who loves me, a future, a decent blue collar job, family, etc. but I feel this self destructive desire for hatred and loss. \n\nI think about suicide, but I'm too much of a coward to do anything. Am I suicidal? Probably not, more likely a selfish dick who wants attention I don't even know anymore. I have this hanging hunger for misery but I don't want to damage those around me anymore than I already have. I don't know what's worse, sticking around being a burden, or leaving them to deal with the aftermath of I leave.\n\nThere are so many people who deserve the oxygen I'm breathing more than I do. I don't know what I am anymore. Damaged, proud and stuck up, sick in the head, or just fucked up all around. I'm sorry, I just don't know what to do anymore.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18clk06\/im_scared_and_even_though_i_have_everything_i\/"
+    title:
+      "Day 12/13/14 on SSRI - I've had more motivation than usual. I've been fucking up though. I feel doomed to be alone.",
+    text: "Everyday is still a struggle but I actually got a lot done around the house and I've been feeling good about that. I definitely notice some motivation. \n\nI've been told I look like shit a lot this week. And honestly I see it too. I haven't been sleeping. \n\nI almost died last night and I don't think I'm even exaggerating. I drank way too much. \n\nI drank because I was having a panic attack. I then proceeded to ruin like 5 relationships from my drunken high stupidity. I need to get sober I see that now, but it always starts right over. \n\nI feel doomed to be alone because I just can't ever find the time to work on myself or a relationship. All I know is self sabotage. I can't believe how fucked up I got in front of the ones I care about.\n\nI'm manic AF rn and I don't know what's going on. Idk if it's the pills, the alcohol, or just my mental illness. So I don't know if I'm truly getting better.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18bmy70/day_121314_on_ssri_ive_had_more_motivation_than/",
   },
   {
-    "title": "Day 12\/13\/14 on SSRI - I've had more motivation than usual. I've been fucking up though. I feel doomed to be alone.",
-    "text": "Everyday is still a struggle but I actually got a lot done around the house and I've been feeling good about that. I definitely notice some motivation. \n\nI've been told I look like shit a lot this week. And honestly I see it too. I haven't been sleeping. \n\nI almost died last night and I don't think I'm even exaggerating. I drank way too much. \n\nI drank because I was having a panic attack. I then proceeded to ruin like 5 relationships from my drunken high stupidity. I need to get sober I see that now, but it always starts right over. \n\nI feel doomed to be alone because I just can't ever find the time to work on myself or a relationship. All I know is self sabotage. I can't believe how fucked up I got in front of the ones I care about.\n\nI'm manic AF rn and I don't know what's going on. Idk if it's the pills, the alcohol, or just my mental illness. So I don't know if I'm truly getting better.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18bmy70\/day_121314_on_ssri_ive_had_more_motivation_than\/"
+    title:
+      "Im the guy she looks for if the room was empty, while she\u2019s the girl I\u2019d look for in a full room.",
+    text: "Quick context: met a year ago, shared same values and mindset, we secretly fell for each other without confessing, but we both know it\u2019s true. Texted each other every single day on almost everything. I\u2019m a difficulty to know friend, but she broke that barrier and knows me the most, she can tell what\u2019s up with me just from my expressions. She\u2019s always the one to check up on me, and I make sure I do too. We share notes and whatnot.\n\nLately, her attitude towards me changed. Taking longer to reply, sometimes till the next day, seldom shares ig reels anymore, and puts fewer effort to meet. The topics changed, the sincerity changed. And sometimes she makes me feel like I\u2019m the just the other guy, such that if friend X or Z were around, she would choose to talk with them over me. She rarely shares what she up to anymore, and is like distancing herself from me.\n\nIdk man, it hurts. I loved her so much. And probably the most I will ever love. My body chills every time I read her name in my notifications center, and seeing her drift away is killing me slowly.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/18b9w28/im_the_guy_she_looks_for_if_the_room_was_empty/",
   },
   {
-    "title": "How do I just be myself?",
-    "text": "Recently I have had lots of failures and I think I took them to heart and let them shape who I am. Not having felt like success in over an year has left me with a pessimistic view. The common advice of \"just be yourself\" is something I've across multiple times and do believe that it is a resolve. At my peek I felt like I was being myself unattached from the distraction and ideas of being someone. However at the moment, I have issues with memory and health overall and whenever I come across a helpful thought in my mind and forget it it hurts. How I've recently been looking at being myself is to treat a situation as it is isolated from those before it (the perception of me), this is helpful but has issues. If you feel comfortable please share how you perceive the idea of being oneself and if it helps you or other things that might be helpful in this condition. \ud83d\ude42\n\nPS: How I see it is similar to how one might see being in the moment.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18b9og1\/how_do_i_just_be_myself\/"
+    title: "Day 10/11 on antidepressants: Had a pretty bad panic attack today.",
+    text: "I blame my OCD. Sometimes I have these episodes where I start to think I'm somebody I'm not. Idk if that even makes sense, I probably sound crazy, it is crazy. Iykyk how it is. \n\nAnyways that happened and I wondered if maybe it was the antidepressants because it was close to my dosage time. I can't be too sure though, but I'll keep taking them and keep an eye on it.\n\nAfter work I picked up a sandwich omw home and after that I passed out. The plan was to eat and then go to the liquor store. I planned on drinking tonight until I felt something. I suppose I still am but I wanted something a little stronger. \n\nIt's not the only reason why I wanted to go to the liquor store. There was somebody I wanted to see on the way there. It didn't happen though and maybe I just need to be more open or maybe I'm just not ready to let anyone in. \n\nI looked at my sleeping habits for the last two months. Every month my Fitbit makes me a report. I haven't really been sleeping as much as I used to. I feel like that may be contributing a lot to my mental well-being, but I'm not quite sure how to fix it.\n\nI bought a lot of books today as well. Hopefully once I get some more work done on my house I'll have the time to read them. I got them all on sale though so I feel good about that.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/188y690/day_1011_on_antidepressants_had_a_pretty_bad/",
   },
   {
-    "title": "As a 26(m) who never been in a relationship, even if I manage to have a decent life. I still would feel depressed because I never got to experience being in love with a woman.",
-    "text": "**I mean decent life minus having a women in my life**\n\nHonestly I would still be depressed because even if other aspects of my life are good, the fact that I never got to experience love with a women makes me sad. \n\n\nI look at one couple and all that depression comes back up. \n\nAlso in case anyone ask me to just focus on myself. I already am bud thanks but it doesn't get rid of how I feel.\n\nI'm not sure if its biological thing but I do feel like my biology or my body is punishing me  hard because Ive been unable to attract a women yet.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18acasz\/as_a_26m_who_never_been_in_a_relationship_even_if\/"
+    title: "Antidepressants Day 2: yuh I'm fucked up..",
+    text: "It was rough. Got praised again at work . I ask myself if it really even means anything to me. I don't think it does. And if I'm not perfect, then your praise means nothing. \n\nI really do try my best, but to me it feels like nothing. Anyways I don't wanna bring my work home. I'm gonna try harder tomorrow.\n\nI was actually pretty down today. About what? I don't really know. I Just didn't feel good about myself. I miss her. \n\nI still got some bullshit to deal with. I bought myself a couple Christmas presents I'm looking forward too. I received two today. I'm pretty happy with them. I really know what I wanted this year. It shows I care about myself lol. \n\nUghghghhh. ...  I went out to dinner tonight. I finished all of it! I feel sick about myself. It wasn't really that great of food.\n\nI'd have preferred the other restaurant but when I arrived the sign said, \"closed. Out of business\".\n\nA other person's dreams crushed is really all I saw... \n\nThen I came home and finished off this bottle of whiskey. \n\nI'm jamming rn. Got my music blasting before I drift off and wake up to face another day. \ud83d\ude01\ud83d\ude01\n\nThanks giving us coming up. Ik for aot of us tomorrow is our last work day! What's your plans????????",
+    url: "https://www.reddit.com/r/malementalhealth/comments/1810snr/antidepressants_day_2_yuh_im_fucked_up/",
   },
   {
-    "title": "I just want my suffering to be over",
-    "text": "I\u2019m a 22M, and I\u2019ve been losing my mind more and more with each passing day since a breakup a couple months ago\n\n\nShe fucked me over hard, and I\u2019ve been struggling so much since breaking up\n\n\nI feel like I\u2019m losing my mind. I\u2019m not just mourning the loss of the relationship, but the future I had planned as well. That\u2019s something that never occurred to me would happen with a breakup\n\n\nThere\u2019s a song lyric I heard recently, \u201cWhen you\u2019ve lost your whole world, where do you go?\u201d\n\n\nThat\u2019s exactly how I feel right now, like this lifeless mass taking up space and going through the motions of every day survival. I lost my whole world, and now it all feels meaningless\n\n\nI\u2019ve fallen back into addictions I\u2019ve been sober from for a couple of years. They\u2019re bad, of course they are. But they\u2019re the only thing that numbs the pain even for a moment\n\n\nI\u2019m barely hanging on here",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/188vnzk\/i_just_want_my_suffering_to_be_over\/"
+    title: "I can't take flat affect anymore",
+    text: "Not having my emotions is destroying me. I've become a robot whose agony is slightly supressed by the sertraline which have upped in dose. Because i cant feel my emotions, i cant feel music, my one true joy on the planet. It just sounds like additional noise stimuli, not music anymore. I just want music back. Is it because i had a year long psychosis that progressed to schizophrenia and im just dealing with the aftermath of that? Is it because flat affect is something you can't remove from schizophrenia? Is it because of the bad reaction i had to the invega shots first time round? (Thats when it all started to be fair) i just want my feelings back and i won't rest until i get my emotions back. I will find a way, im hoping this is temporary, ive been doing good so far, I'm going to the gym, eating healthy, seeing friends, my positive symptoms have lessened greatly. Maybe i should just ask to lessen the dose once i gey changed to abilify. Just hoping one little nudge of the meds is all it takes. Hope my psychotic episode last summer was a one off. I think it could be- i had a lot of stress at the time. Pray to the higher powers. Rant over",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17yjpg7/i_cant_take_flat_affect_anymore/",
   },
   {
-    "title": "Tfw you forget how to make friends.",
-    "text": "I have had the same friends since like middle school and I love them cause they have been my friends since forever. But as time has gone on we all moved apart but they are still the only people I really hang out with. I really want to make new friends but I struggle with bad social anxiety so often when I attempted in the past to make friends I would have no idea how to have a conversation. I joined a lot of clubs at my school to try to make friends but I just kind of end up drifting around not really talking to people and then just leaving feeling crazy bad. I just have no idea what to do. I feel like there is some cheat code to making friends but everyone knows it but me. Is there a way to practice talking to people so I can attempt to make new friends? I\u2019m just a little lost is all!",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18866is\/tfw_you_forget_how_to_make_friends\/"
+    title: "Tired of pretending to people all the time I don't care.",
+    text: "Vent/seeking guidance\n\nThat's all I seem to be anymore is just a useful pawn for people. No one cares, and the older I get it I just find it more and more evident, that people don't actually care. They say that they care, but in truth they don't, they just say that they need to say in the moment to get them out of hot water. I stop and think, and I have basically no one looking out for me right now. One relative I used to know is in prison now, and hopefully gets out soon. But no one cares, I'm invalidated everywhere and everyone and told that other people have it worse and that I should feel bad for them, or that I need to suck it up. I'm tired of running and pretending that it doesn't hurt. But people just don't even care. There's people that have it much better off than me, and they have people feel sympathy for them. Sympathy for someone else and other people, and I can hardly get any sympathy from one single person alone that isn't a counselor or psychiatrist.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17x51ye/tired_of_pretending_to_people_all_the_time_i_dont/",
   },
   {
-    "title": "Antidepressants Day 9: I'm broken. I'm so fucking broken. Everything's taking so fucking long!",
-    "text": "The days are going by so fast and yet I'm getting nowhere. \n\nI can't really say that though. I am getting places, my patience is just non-existent. I want positive change now. I want my home to be a home. It's that thing I never really had. \n\nI'm tired, I'm so tired. I'm so stupid. I can't ever find the words to express how I feel. I feel no connection to the people around me or in my life. I'm a fucking alien. I don't belong here. \n\nI spoke to my dad a bit ago. He sounded tired and stressed out. Idk how he does it all. If he saw me now what would he think? \n\nI have so many people to call. I'm so overwhelmed. I don't want to feel a damn thing. I'm getting worse. I'm worse than ever.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1879c38\/antidepressants_day_9_im_broken_im_so_fucking\/"
+    title: "She's married now...",
+    text: "I met someone too, but just like you I can be a ghost too. It's okay though, I have Evan here with me. \n\nI can relate to you too. You wouldn't believe how terrified I was when the doc said, \"instant death\". Isn't that everything I asked for though? I guess I got what asked for.\n\nDid I not ask for you as well? Maybe I didn't want you enough.\n\nI know you're still a good person though and you deserve everything you have. I had that $5k . I still ask myself why I didn't even put in $420.\n\nI said I wanted to help more people but really I was just trying to help myself. I really hope you made it to Arizona though. \n\nI wish you happiness. I see that smile, the same one you gave me. I'm just glad Evans still here. \n\nI wish many more years for the both of us.  I'm not in the best place rn but I have hope it gets better soon.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17widbf/shes_married_now/",
   },
   {
-    "title": "What can I do to make myself cry?",
-    "text": "For my whole life I've had to hold in pretty much every ounce of anguish that's happened to me, but about a few months ago I was by myself and going through something so I wanted to see what it was like to let myself cry entirely. Instead of crying I just started screaming for about 10 minutes, but I couldn't keep that up because I had neighbors under me. \n\nEven though that was nowhere near enough I felt like it truly did give me some relief. There's a lot in my life I haven't moved on from probably because of this so I'm going to take a little trip soon to someplace where I can have this happen for as long as I need. \n\nIt might take a month or two though so I'm hoping that the emotion doesn't just fade when I get there and then I'm stuck. Any tips on getting in touch with that negative emotion so you can release it?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18565je\/what_can_i_do_to_make_myself_cry\/"
+    title:
+      "Dating apps (tinder & hinge) has absolutely destroyed any sense of self worth and made me completely suicidal.",
+    text: "title says it all really. I've always been quiet shy, never had any attention from opposite sex growing up, I know I'm ugly but never truly understood it's this bad.\n\nThe experience of trying to put myself out there for the first time ever was a disaster. I had one match and her reply was \ud83e\udd22 then unmatched me.  I guess her friend matched me for a prank.\n\nNo likes, nothing else. Not a single message about anything, I have achieved a decent amount in my 24 years alive, masters degree, chess and pool championships, I make average money for my age around $50k, came from poverty but the worst is my looks. \n\nand no I'm not expecting to be a model and have any woman I want, I like the idea of someone genuinely liking my company, and I enjoy theirs, that's it. \n\nThe requirements are like a never ending Stairmaster. I suppose my genetics deserve this, they deserve to die out because of how bad they are. \n\nI've decided getting wealthy is my goal but this isn't to get women. It's so I can enjoy at least a few things in life like supercars, jet skiing and travel. If it doesn't happen by 30 then I will be exiting life.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17ulb0p/dating_apps_tinder_hinge_has_absolutely_destroyed/",
   },
   {
-    "title": "Antidepressants Day 6: First day since starting where I haven't drank.",
-    "text": "I really felt like I had something written out for tonight, but I guess I wasn't really taking any notes today. \n\nI sort of relaxed today. It's been a long time since things were normal and I suppose there's still a lot to do before they are. I guess that's when the anxiety started to kick in. I spent most of my afternoon having a panic attack. \n\nI'm just tired but I have so much to do. I would love to ask for help but I'm starting to realize just how unreliable everyone is. And I get it, everyone has there own shit to deal with, but I just don't understand why they say they can help and then don't. \n\nMaybe I'm just being unreasonable. I guess all I really want is to just relax but I guess that's just not something I can do. At least not without multiple shots and a few cans.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1847mxd\/antidepressants_day_6_first_day_since_starting\/"
+    title: "Discussion with my mother",
+    text: "This morning, on my weekly call to my mom (I live 2000 miles away) she asked me about anything new in my lifei told her about Norah Vincent'sbook \"Self-Made Man\" that I started reading the other day. After giving her a brief rundown of the book and a little about the author we got yo talking about the disposablity of men in today's society. She told me how much she supported men's rights and hated how society views men. I don't remember what I said exactly, but her response was that women have it just as bad if not worse. I described some things I dealt with when married to my ex-wife and explained that I had absolutely zero resources and no support in place simply because I have a Y chromosome and even tossed back her words and how I never said anything about women having it easy, but she quickly threw in my face that they did the moment I expressed facing difficulty. \n\nI font know what I'm looking for here, I think I needed to just get that off my chest.\n\nThanks for listening.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17tx3ve/discussion_with_my_mother/",
   },
   {
-    "title": "I hate how my mind works",
-    "text": "I\u2019ve been using the Meetup for exposure therapy for myself and been going to events mostly for fun. And I\u2019m actually enjoying myself as well!\n\nBut then later on, my mind becomes super negative with thoughts like \u201cyou didn\u2019t find a friend or a girlfriend there. What\u2019s the point?\u201d\nI know *I* have been having fun lately, more fun than I\u2019ve had in a while. But my thoughts keep going back to feeling negative that I didn\u2019t find a partner.\n\nI wish I could control my thoughts more.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/183wpsc\/i_hate_how_my_mind_works\/"
+    title: "Anyone else have it the worst out of their friends/family?",
+    text: "They say comparison is the killer of happiness, but goddammit is it hard not to when it comes to the people you spend the most time around.\n\nI\u2019m not gonna sugarcoat it, my life from birth to now has been hell. This post would be a novel if I got into the specifics. My friends and family have had some shit go on in their lives too, but seemingly not to the merciless degree I have. They haven\u2019t gone through the financial struggle, abusive childhood, and many of the specific shit I\u2019ve had to endure\u2026 and I don\u2019t want them to. It just sucks feeling like the \u201cunlucky fuck\u201d of my circles and feeling alone in this bullshit.\n\nLike I\u2019m the one God decided to make an example of to my friends that \u201cremember guys, your lives might be hard but at least you\u2019re not *insert my name*\u201d. I wanna be happy for my friends when they succeed but lately it\u2019s been hard internally. While I was going through the hell this year with my parents, car, home, and ofc girl problems my close friend was having a threesomes with women enjoying life\u2026 and he wouldn\u2019t stop FUCKING BRAGGING ABOUT IT!\n\nI truly feel cursed. I really do.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17pigzo/anyone_else_have_it_the_worst_out_of_their/",
   },
   {
-    "title": "Antidepressants Day 4: it's thanks giving y'all. How'd it go?",
-    "text": "I met like the coolest most chillest person ever lmao. She was actually amazing and so down to earth. She was so sweet.\n\nI think the two of us were just taking shots and she was just saying so much, like real shit too. I'm not a talker. And she actually noticed that right away I think, none of us are, so I'm glad she was there. \n\nLike this was actually the most genuine person I've ever met. \n\nMy crush also texted me and it was a much appreciated surprise. \n\nI feel like a piece of shit though. I shouldn't be like this. I shouldn't have got fucked up. \n\nWhy is it just so hard to be me? I don't know who I am. That's the answer I got. Who am I? The question I can't answer.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/182lrzo\/antidepressants_day_4_its_thanks_giving_yall_howd\/"
+    title: "Being a man with low self esteem is awful.",
+    text: "I had a neglectful family. Parents who didn't love each other. An abusive father. Bullied at school. Dad shouted at me when he found out I was getting bullied so I just hid it. As time went on, I just became better at hiding it. I would become over confident in my personality and sometimes a bully. But it just gets worse and worse. As I go deeper into adulthood I see the myriad of ways that it ruins my mental health. I struggle to stand up to myself which leads to further trauma. I am terminally depressed about not finding a partner but too shy and beaten to attract anyone. Life just seems completely empty and hopeless and I don't see the point in anything. No matter what I accomplish, it's never enough. \n\nI've sculpted my body to the point where people comment on it. I've taught myself several languages. I go to therapy and I've got a good career. I've got a good career. But I can't pull myself out of this. I don't have the resources to fix myself. I was never shown love as a child. I can't pull it out of nowhere and love myself now. I've reached such a low point I have no idea what to do. ",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17iav40/being_a_man_with_low_self_esteem_is_awful/",
   },
   {
-    "title": "Antidepressants Day 3: It was exhausted last night.",
-    "text": "I woke up still drunk yesterday morning and went to work as usual (don't worry I don't drive). Then I went to my other job. Pretty easy day if I say so, thanks to the holiday. \n\nI was more down than usual today. My thoughts were racing. I still haven't showered and just wiped myself down. (Yeah, I'm disgusting Ik) \n\nAll in all I ended the night pretty good. \n\n\n(Late post, I had it In my notes but didn't have the time to post. I'll probably post day 4 later.) Happy thanks giving to y'all in the US!",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/18246qu\/antidepressants_day_3_it_was_exhausted_last_night\/"
+    title: "Y\u2019all ever feel like if God exists he hates you?",
+    text: "Like for some odd reason he made you just to suffer as his twisted little entertainment? Like anytime something seemingly good happens in your life he quickly intervenes to make sure that shit doesn\u2019t happen? Like your only purpose is to suffer for him to get a cheap laugh at your expense then die.\n\nThing is I don\u2019t feel like I\u2019m being hyperbolic anymore, I\u2019m starting to genuinely believe this is the case. Everyone goes through stuff, but I\u2019ve been getting hit mercilessly back to back to back this year, really my whole life but this year especially. The kind of bad luck you\u2019d see on cartoons, the kind where if you told people about it they\u2019d think you were exaggerating.\n\nEvery time once I feel like I\u2019m over a hurdle another very serious problem immediately follows. I think suicide is a legit solution in cases like these, your life is already written and is sure to be as fucked up as it\u2019s been so why not. Then again with my luck I\u2019d somehow survive and live out the rest of my days paralyzed. Fuck existing honestly.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17dzcmy/yall_ever_feel_like_if_god_exists_he_hates_you/",
   },
   {
-    "title": "Suicidal thoughts relapse #1",
-    "text": "I was doing good. \n\nThen, I thought of my inherent loneliness. I told myself I\u2019m not worthy of love from anyone, that I would never find someone who I can understand and who understands me. I then said that, even if I did, I would never form any kind of relationship through it. I then thought: if I am going to be alone forever, I should end my life now to avoid the further pain of existing. This was a few minutes ago. My streak has been broken, officially. \n\n2 months.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/181lx8p\/suicidal_thoughts_relapse_1\/"
+    title: "I feel like I\u2019m slowly growing into an angry bitter person",
+    text: "I\u2019ve withstood a lot of bullshit in my life from childhood to adulthood and usually I\u2019m able to smile it away and distract myself with some form of silly entertainment. Recently my anger had started to slowly build over time as more and more obstacles keep getting recklessly thrown at me left and right. This year especially (for anyone that\u2019s read my other posts here) has really tested my fucking patience and sanity. Never ending bullshit after bullshit after fucking bullshit with no sign of a goddamn break.\n\nAt work I feel like I\u2019m one shitty customer away from a potential assault charge. It\u2019s gotten to the point where I\u2019m almost anticipating someone fuck with me so I can let all these years of anger and problems out. There\u2019s times I just wanna scream in my car and bash the wheel but that would be another problem added to my fucked up car rn. I wish my luck and fate was personified so I can actually fucking hurt it for all the shit I\u2019ve had to go through.\n\nI hate everything and everyone. Fuck this year and fuck my life.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/17105xq/i_feel_like_im_slowly_growing_into_an_angry/",
   },
   {
-    "title": "Doing Everything Right To Make New Friends, Still Getting Hurt Most of the Time",
-    "text": "As proud of myself as I am for realizing that rejection sensitivity is my biggest weakness this year, I still face a lot of them - from groups I\u2019m a part of, at work, and elsewhere. Today especially was difficult: I tried talking to a couple of girls at pickleball and I was rejected and in one case, I was left with no one to play with because people would rather play with their friends rather than bringing a new person in. Most of my reading this year has been about social skills and I\u2019ve applied those skills. Still, all I know is pain; I\u2019m all too familiar with the phrase, \u201cI have enough friends.\u201d\n\nIf things don\u2019t get better for me next year, I\u2019ll be looking at a permanent solution to my problems. I\u2019m not spending money hand over fist on therapy, clothes, hobbies, etc. to only know pain.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/180xfnx\/doing_everything_right_to_make_new_friends_still\/"
+    title:
+      "Sick of being stuck between not wanting to live and not wanting to die either",
+    text: "Wish I just hadn't existed to begin with, I don't want to be alive, I don't want to die, I don't want to do anything, I hate everything, I'm bad at everything, I hate the body I was born in, I hate being alone and I can't stand being around people, I want this world to go away, I want to disappear. It feels like I'm slowly going insane, I'm losing my mind, been having more outbursts than usual and scratching myself more than usual to the point I have marks all over my neck and face, and chest, and elsewhere most days, the sounds people make every fucking day are driving me mad, I can't even look at other people without being so utterly envious I want to immediately stab myself, I can't go into public without getting anxious, I can't show my face, I don't understand how to interact with others, what the fuck does this world want from me, why the fuck did it make me, fuck you. It feels like people just hate me for some fucking reason and are just waiting for each of my unending fuck-ups so they could make fun of me, it feels like I'm constantly spied on, like my thoughts are getting broadcasted and everyone's making fun of me for what a fucking loser I am, like it's my fucking fault, I didn't fucking choose to be born, go fuck yourselves, I fucking hate you, fuck you, go die.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/16zsu2s/sick_of_being_stuck_between_not_wanting_to_live/",
   },
   {
-    "title": "Why does taking time to myself\/ not being available for others and or work feel so selfish and wrong?",
-    "text": "Today has been kinda crappy, we just got internet back at the shop I work at and I\u2019ve been in a very bad mood and don\u2019t see myself being productive or efficient for the rest of the day.\n\nI\u2019m probably going to just leave and go home but it feels incredibly selfish.\n\nI know work and being there for others is important, but I feel like every time I try to prioritize myself and my mind, it is the wrong thing to do.\n\nThis isn\u2019t just something happening today, but any time I feel like I don\u2019t provide or be there for my family and friends, I feel useless.\n\nI was hardwired in my early years and especially in high school to be there and be useful at all times. I can\u2019t really seem to break that programming. I like being useful, but sometimes I just wanna relax or work on my mind.\n\nIf anyone knows good tips on how to prioritize themselves and not feel selfish I would like to hear them.\n\nThanks.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/180mrbn\/why_does_taking_time_to_myself_not_being\/"
+    title: "Worst month of my life",
+    text: "(60m,veteran) So this has been the absolute worst month of my life.  My PSA levels have been trending up, so they did a biopsy.   Yeah, I have stage 1 prostate cancer. Gleason 3+3.   But the biopsy itself has screwed up my \"equipment\".   Climaxes just peter out.   Treatment?  We're just gonna monitor it until it moves to stage 2 or 3.  Next, I have two spots removed off my back.  Yep.  Skin cancer.  So I go back in a few weeks for a full body evaluation. \n\nSo where is my support group?  I'm glad you asked.   You see, my wife is fighting stage 4 breast cancer.  Since 2015.  I'm supposed to be her support.  And right now her blood work is all out of whack.  Her scans are clean, but cancer markers are through the roof.  Her oncologist is baffled and concerned.  So we're dealing with that, and get hit with my health issues. \n\nAnd yesterday, after another failed attempt at intimacy,  while discussing the possible reasons, I get told I don't really have cancer, because I'm not going through chemo or radiation  treatment yet.  Really?  SMDH.  FML.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/16yu3uj/worst_month_of_my_life/",
   },
   {
-    "title": "I'm going back on my antidepressants.... Day 0 of crawling my way out this pit",
-    "text": "It's with a heavy heart that I say this, but I really don't know what else to do anymore. \n\nIt's been so long since I've felt anything but bad. I can no longer distract myself the way I used to be able too. I no longer have any interests. I didn't think it was possible to sink even lower, yet here I am.\n\nI hate myself and I feel like everyone else does too. I know this can't be true though. \n\nI don't want this but my brain just doesn't fucking work anymore. There's nobody else to turn to so it's all up to these pills to save me now. I can't keep turning to the bottle because Ik it's killing me.\n\nWhat a joke I am. I hope I can come back a few months from now and laugh at this. I hope I'm a happier person sometime next year.\n\nI'll keep you all updated.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17zg6vc\/im_going_back_on_my_antidepressants_day_0_of\/"
+    title: "I haven't felt well in years",
+    text: "I am 15 years old and so far my life has been total hell. I have struggled so much through so much trauma and in my thoughts I hide it with seeing my self as an adult in a child's body. I have lived so trashy. I sleep on a damn couch. School is draining my sanity every day.\n\nSo many people tell me I have it easy. So many people think of me as tough. But in reality I am a sensitive child with anger issues. Yeah I do exercise with my father but that doesn't change shit about my life.\n\nI don't know why or how but for some damn fucking reason I have not been sent into a psych ward yet. For some fucking reason I am still in this same fucking house sleeping on that same fucking couch in the same school, in the same routine, in the same sleep cycles, in the same shit.\n\nI would rather be homeless than spend another fucking day in this shithole you call a \"life\". It is not even a life, it's just existence. I just want to smoke a  damn fucking joint and take a fucking break but I have never even touched a single gram of weed in my life. \n\nIf I ever wind up 6 feet deep you can bet it was by my own terms. I am so fucking tired.",
+    url: "https://www.reddit.com/r/malementalhealth/comments/16yyyou/i_havent_felt_well_in_years/",
   },
-  {
-    "title": "Am I wrong somehow ?",
-    "text": "I am a teenager in 10th Grade, My Father passed away when I was in 5th Grade, I don't have any friends and No one listens to Me at school and home even tough they end up following my advice. I am the Smartest kid in my Class, so someone students hate me and they call me the teachers' pet, My classmates doesn't interact with me and only remembers me when they need help or something( usually Stapler and Staples)\n\nMy mother is a single mother and a bit overprotective, She cares about me Alot but Doesn't know what I want actually, She doesn't even care about my Interests. She doesn't even try to listen. She Also scolds me alot, I am an atheist but my mother believes in God so I respect her believes but she doesn't respect my believes and opinions.\n\nI feel very alone and lonely, I like Physics and playing video games, so I usually indulge in them.\nI don't know what to do anymore",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17xzip5\/am_i_wrong_somehow\/"
-  },
-  {
-    "title": "Women",
-    "text": "Nobody has ever liked me. I\u2019m 23 & still a virgin. Never had a girlfriend. Never kissed a girl. Never held a woman\u2019s hand. Nothing. Every woman I ask says I look like a shriveled up raisin or that I look like a make a wish kid. I\u2019ve been to rehab 6 times since 2016 for this same reason. Since no women like me then I don\u2019t find happiness or a point in living.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17x1xr4\/women\/"
-  },
-  {
-    "title": "Tired of pretending to people all the time I don't care.",
-    "text": "Vent\/seeking guidance\n\nThat's all I seem to be anymore is just a useful pawn for people. No one cares, and the older I get it I just find it more and more evident, that people don't actually care. They say that they care, but in truth they don't, they just say that they need to say in the moment to get them out of hot water. I stop and think, and I have basically no one looking out for me right now. One relative I used to know is in prison now, and hopefully gets out soon. But no one cares, I'm invalidated everywhere and everyone and told that other people have it worse and that I should feel bad for them, or that I need to suck it up. I'm tired of running and pretending that it doesn't hurt. But people just don't even care. There's people that have it much better off than me, and they have people feel sympathy for them. Sympathy for someone else and other people, and I can hardly get any sympathy from one single person alone that isn't a counselor or psychiatrist.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17x51ye\/tired_of_pretending_to_people_all_the_time_i_dont\/"
-  },
-  {
-    "title": "Anyone here know how to deal with mommy issues",
-    "text": "I was raised by micro-managing and controlling mother throughout my life. I didnt receive much warm and caring love from my mom either. She would always be little me and compare me too others, as well making me feel bad about being myself.\n\nAnyways, I realize I had mommy issues when I was looking at other women to give me the loving, caring mom I never.\n\nDid anyone have this issue and fixed themselves and if so how?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17wxpq9\/anyone_here_know_how_to_deal_with_mommy_issues\/"
-  },
-  {
-    "title": "Y\u2019all ever feel like good things aren\u2019t allowed to happen to you?",
-    "text": "Like you\u2019ve just accepted after years and years of misfortune that good things aren\u2019t allowed to happen in your life?\n\nWhether it be a girl, a nice job, or just peace in general and to go one day without problems? You feel like somehow the universe has destined you for bad luck since birth no matter how hard you work to make things in your life not suck so bad?\n\nI feel like God himself is constantly dropping hints that I should probably take my own life since there\u2019s nothing good to look forward to now. Fuck it I might listen to him one day.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17wd464\/yall_ever_feel_like_good_things_arent_allowed_to\/"
-  },
-  {
-    "title": "She's married now...",
-    "text": "I met someone too, but just like you I can be a ghost too. It's okay though, I have Evan here with me. \n\nI can relate to you too. You wouldn't believe how terrified I was when the doc said, \"instant death\". Isn't that everything I asked for though? I guess I got what asked for.\n\nDid I not ask for you as well? Maybe I didn't want you enough.\n\nI know you're still a good person though and you deserve everything you have. I had that $5k . I still ask myself why I didn't even put in $420.\n\nI said I wanted to help more people but really I was just trying to help myself. I really hope you made it to Arizona though. \n\nI wish you happiness. I see that smile, the same one you gave me. I'm just glad Evans still here. \n\nI wish many more years for the both of us.  I'm not in the best place rn but I have hope it gets better soon.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17widbf\/shes_married_now\/"
-  },
-  {
-    "title": "Can\u2019t find motivation",
-    "text": "M\/29\n\nHello everyone, \n\nI just wanted to post some thoughts and maybe receive some guidance. I\u2019ve been noticing lately how little motivation I have. I know the potential that I have and I know how to achieve it, but I don\u2019t have the drive and motivation to reach that potential. It\u2019s frustrating because if I had the proper motivation and drive, I could achieve exactly what I want in life.\n\nYou\u2019d think that would be enough to garner up some motivation, but it\u2019s not. Anyone else feel like this? Any advice on how to overcome this? \n\nJust for reference my sleep schedule is alright, nothing too crazy. Diet is also alright, not too great but not too bad. Get a decent amount of exercise in as well.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17w2msf\/cant_find_motivation\/"
-  },
-  {
-    "title": "How can I help my friend?",
-    "text": "I\u2019m a girl wondering how to help my male friend. I know he\u2019s struggling, but he obviously isn\u2019t vocal about it. I really like him and I want him to be happy. He has low self esteem and he\u2019s very antisocial and quiet. Neither of us are good at conversation, so I just sit beside him to keep him company. I hate when he\u2019s alone and I hate how the other people treat him at school. I want to let him know that I care about him or whatever, but I don\u2019t want it to be awkward or sappy. I try to do little things for him, and the more I do, the more I notice how he thinks he isn\u2019t worth these small gifts. It\u2019s hard to tell others that I\u2019m worried about him because most of my friends couldn\u2019t give a rats ass about men and their mental health. How do you think I can go about showing my appreciation and care for him? I don\u2019t want it to be awkward, but if it has to be then I guess I must just move past that.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17vj24b\/how_can_i_help_my_friend\/"
-  },
-  {
-    "title": "I wish I could be the person who I am drunk all the time",
-    "text": "I went to a wedding this weekend and had an absolute blast the whole time. But I noticed that as the night went on and I was having more and more drinks, alcohol did it\u2019s normal thing. I wasn\u2019t as nervous talking to people, I felt like I was able to have fun conversations with people, and I wasn\u2019t afraid to be a little flirty at times. But when I\u2019m sober, I start to overthink whenever I\u2019m talking to people. I\u2019m suddenly so much more reserved and I keep my more silly comments to myself. I feel like if I could be my drunken self while being sober, I wouldn\u2019t be so afraid to have more fun in life. I\u2019m not saying this to mean I\u2019m gonna just try and be drunk all the time though. Quite the opposite actually. It would be a horrible idea to do that, but I don\u2019t know how to achieve this goal.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17u1w00\/i_wish_i_could_be_the_person_who_i_am_drunk_all\/"
-  },
-  {
-    "title": "What to do when I lost a little respect for my parents",
-    "text": "Saw my mother drinking by herself the other day and she passed out on the floor hitting her eye and bleeding needing to go to the hospital she claims she passed out because she\u2019s diabetic and not healthy. I live with my parents as I\u2019m studying in uni and I wish to respect her because she\u2019s my mom but I can\u2019t help but feel like a lost a little bit of respect",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17tzdc2\/what_to_do_when_i_lost_a_little_respect_for_my\/"
-  },
-  {
-    "title": "Discussion with my mother",
-    "text": "This morning, on my weekly call to my mom (I live 2000 miles away) she asked me about anything new in my lifei told her about Norah Vincent'sbook \"Self-Made Man\" that I started reading the other day. After giving her a brief rundown of the book and a little about the author we got yo talking about the disposablity of men in today's society. She told me how much she supported men's rights and hated how society views men. I don't remember what I said exactly, but her response was that women have it just as bad if not worse. I described some things I dealt with when married to my ex-wife and explained that I had absolutely zero resources and no support in place simply because I have a Y chromosome and even tossed back her words and how I never said anything about women having it easy, but she quickly threw in my face that they did the moment I expressed facing difficulty. \n\nI font know what I'm looking for here, I think I needed to just get that off my chest.\n\nThanks for listening.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17tx3ve\/discussion_with_my_mother\/"
-  },
-  {
-    "title": "I can't get over a past girlfriend. I'm 31 now and feel there's no point dating",
-    "text": "I had someone who could've been perfect for me when I was 23. She was sweet, kind, sassy, playful and very understanding, and she truly loved me. \n\nWe only spent little time together but I can't get over her. I had a gf since, but I never felt so understood and cared about as with that girl. Now I feel that my soul has closed itself. I am used to being a loner and don't really feel love anymore like I used to. This is what I've become because I made a bad decision.\n\nWill this ever change?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17t5o6h\/i_cant_get_over_a_past_girlfriend_im_31_now_and\/"
-  },
-  {
-    "title": "My boyfriend's burned out from school\/work\/family health issues, can I help him out of it?",
-    "text": "I'm 25 (f), and I worry about my boyfriend's mental health. He's been burned out for months now. He was once loving, energetic and positive, now he is cynical, negative, filled with hate and treats me like a distant friend. He also stopped eating, sleeping and having fun for a while now. I know that his family's health issues, unneccessary hard university studies and non-rewarding work causes this, and I want to help him feel human again. Did anyone else suffer from this, and if yes, how did you managed to get back to normal? What would've been helpful from your loved ones? I still treat him like a king, I make him coffee, food, I compliment him. He'd always been praised and cherised by me. \n-if I want to talk about it he says it is fine\n-i've suggested him putting off a class or two for next semester but he would feel like a failure then \n-maybe paying someone to do some of his project works for classes? idk let me know",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17t3boc\/my_boyfriends_burned_out_from_schoolworkfamily\/"
-  },
-  {
-    "title": "I get more insults than i do compliments",
-    "text": "I don\u2019t know why, but for some reason I am just insulted. I go to high school, and many of the students have insulted me for no reason, one female student said I had A large nose and I had never even said A word to her before that. Sometimes people will ask for help and I can\u2019t decline due to not wanting to look like and asshole. If I do decline I will be insulted. Sometimes my own father mocks the way I talk or respond to questions. I feel as if nobody cares about me. Many of my close cousins see me as annoying, I try to have A conversation but they push me away, treating me like nothing. Am I nothing? I am to them at least.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17snzlk\/i_get_more_insults_than_i_do_compliments\/"
-  },
-  {
-    "title": "Feeling trapped",
-    "text": "I don't understand why I feel like I'm trapped but I feel fear that something bad is going to happen if I speak out. Living in a rough area with assholes at school only made my mental health worse, I'm trying to plan scenarios in my head instead of just letting it out. \nAnyone who has spoke out to someone, please help me understand what that feeling of fear is and how to get around it.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17rpdbk\/feeling_trapped\/"
-  },
-  {
-    "title": "what type of damage this could happened to me because of this? i'm always people pleaser",
-    "text": "When I was 11 years old, I hated being without the company of those I met in my school, meaning that when I was transferred to another class, I used to cry for days until I returned to those I knew again, but they were hurting me, humiliating me, making fun of me, and treating me very badly, but I still used to cry when they would quarrel with me or show any emotion. By deprivation or being kept away from me, does this indicate the presence of trauma?\n\nmy family and I was always convincing me to only be friend with clever people who are doing good at school. but all of them was that type of person that I've mentioned that treated me so unwell. i was following every instruction my family told me and one of them was to stick to clever people.\n\nwhat type of damage this could happened to me because of this? i'm always people pleaser",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17qndyx\/what_type_of_damage_this_could_happened_to_me\/"
-  },
-  {
-    "title": "I'll be never enough",
-    "text": "I'm done.\n\nI'm trying my hardest to be the best man for everyone I care about, yet my effort is overshadowed by mistakes along the way. Nobody notices my effort, nobody notices that I'm trying my goddamn best.  \nOne slip-up - everything I've done is forgotten, I'm criticized and I'm back to square one.\n\nWhy? Why nobody notices my effort and say anything good about it? Why do I even try to be supportive, empathetic if in the end all I get is criticism?\n\n&#x200B;",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17ptcys\/ill_be_never_enough\/"
-  },
-  {
-    "title": "I don't know where I'm going or where I am. I feel like its time to give up.",
-    "text": "Everyday feels like the same but as I get older I feel that I'm missing something, that there is just nothing I'm working towards anymore. I feel like I'm just a leech on my family and friends and that I can't and most likely won't ever be able to make anything of myself. Even now as I attend the college I always planned to go too and study the major that I wanted, I always find myself just giving up on studying or even trying in any class that seems challenging, I feel worth less and like I'm just waiting until I dropout and kms so that I'm not a burden on my parents. I started taking my antidepressants again but this time they just don't feel the same, I wanna cry and just go die instead of suffering another minute of this confusing life.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17pdxxd\/i_dont_know_where_im_going_or_where_i_am_i_feel\/"
-  },
-  {
-    "title": "Not sure what to do",
-    "text": "My partner is depressed and I feel like im only making it worse. I seem to be irritating them. I'm starting to think it's me and they would be much better off without me. Like maybe I'm not good enough for them. I feel like their lives would significantly improve if I wasn't there. Like they could finally be okay without me. I don't really enhance their life, I do my best but I really feel like I make it harder. I wish I wasn't so dumb and useless. I wish I had more to offer them.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17np62v\/not_sure_what_to_do\/"
-  },
-  {
-    "title": "I had an existential crisis when I was 7 and I never recovered.",
-    "text": "That was the night I realized nothing would ever be the same. Everything just lost so much meaning. It was too much loss for me to handle. What hurts the most is how they all just ignored it. \n\nI hope you know I may never have a healthy relationship. I may never love myself. I may never love you.\n\nI'm gonna try my best to be the person I want to be. You no longer have a say in the decisions I make. \n\nI'm tired.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17lw4ue\/i_had_an_existential_crisis_when_i_was_7_and_i\/"
-  },
-  {
-    "title": "Too soon.",
-    "text": "https:\/\/www.reddit.com\/r\/malementalhealth\/s\/Hc2JRS0jFt\n\nSo a certain poster decided to post this, and after I called him out on how tasteless this is (with a few too many choice words to his inbox I admit) decided to accuse me of not living in Maine (I do live in Maine, Lewiston is barely even a short drive from me) and block the comments. Mods, can we take this damn post out of here and prevent crap like this from happening again please? It\u2019s barely been a week, people are still suffering, **men from the area literally come here for advice** and we don\u2019t need them driven off by this worthless drivel.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17lkbnl\/too_soon\/"
-  },
-  {
-    "title": "Feel like killing myself",
-    "text": "I've been dealing with an insincere relative for years. Unfortunately, I'm financially dependent on my family because of my mental health. This relative pays the bills, and for that reason alone, thinks they can treat me however they want. I said I wouldn't argue with them anymore, but I lost it over a small comment they made. My mood was already bad, so I interpreted their comment as a snide remark. I blew up, got as LOUD as possible to where my voice actually strained. It went on for 15-20 minutes I don't even know. I absolutely look like the villain. After a year of playing it cool, I totally failed myself and, most of all, God. I'm religious, and just got tired of being the good guy. Who would come to Jesus after seeing the way I acted? I don't know. I thought I was being a tough man, but now I just feel so small like I'm ready to end this madness.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17jm4o5\/feel_like_killing_myself\/"
-  },
-  {
-    "title": "Is insoles the best way out for short men? And how do I accept my height?",
-    "text": "I'm 5'7 and a bit\" and 22. I still feel very insecure about my height. I've been wearing 2.75 inch insoles since last year to become 5'10\", but it's doing me no good in the long run. Also it's really uncomfortable. I just want to accept my height. I mean I'm even thinking about going to Florida in the US to undergo a leg lengthening surgery procedure to become maxed 5'11\". While 5'11\" is still not considered tall, it's the solid height in every country (save the Netherlands) in the world that you wouldn't get making fun of...\n\nAny advice would be appreciated.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17hg29f\/is_insoles_the_best_way_out_for_short_men_and_how\/"
-  },
-  {
-    "title": "I Feel I\u2019ve Failed As A Man In Some Ways",
-    "text": "Coming from a conservative, semi-religious background (raised Protestant, converted to Catholicism as an adult, then left organized religion altogether due to lack of social support), I feel that I\u2019ve failed as a man for a couple of reasons:\n\n1. Being shy and introverted for the majority of my life, something I\u2019ve made a greater effort in rectifying recently with the help of therapy. \n\n\n2. Not picking a better major in college. My education was free, which is a blessing in and of itself, but I really wish I\u2019d picked something like engineering or something else more advanced.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17fgayg\/i_feel_ive_failed_as_a_man_in_some_ways\/"
-  },
-  {
-    "title": "How the fuck do I keep going?",
-    "text": "It feels so fucking hopeless. I thought things were going to change when I left.\n\n\"More stuff, the more I want it, more I feel l'm fuckin' stuck\" heard this and I felt that.\n\nThey buy my time. I don't know why I'm so upset though. What else would I be doing?  I wasn't doing anything anyways. \n\nNow I drink half a bottle just to get some decent sleep. \n\nSo this is what it all led up too? How do I accept my new reality? Will I die soon? Maybe it doesn't even matter? \n\nWhen did this glass become empty? It's no longer half full.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17f4hqk\/how_the_fuck_do_i_keep_going\/"
-  },
-  {
-    "title": "What do you guys think?",
-    "text": "I am (28,M) just started using dating app to find serious relationship. I matched with a girl and it\u2019s being great initially. Slowly, she began to rant about guys at her work place and me being a nice guy always listen to her and try to support her. Lately, she began to blame all the guys about everything and keep repeating it everyday. I couldn\u2019t even talked about anything without we getting into this topic. I lost my patience and began to argue with her about how not all guys are misogynists. I being a single for a long time so I tried my best to maintain this relationship. After a while I apologised and explained that I understood her terrible experience at work place but that doesn\u2019t mean you need to put down all they guys out there. She replied \u201cno wonder you\u2019re being single for such a long time, the world doesn\u2019t revolve around you only\u201d. It\u2019s kinda pissed me off and I decided to break up. Am I wrong to take this decision?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17e6uto\/what_do_you_guys_think\/"
-  },
-  {
-    "title": "Thinking of just receding into myself until everyone forgets me so I won\u2019t be missed when I inevitably kill myself.",
-    "text": "Life has been very rough for me this past month. I have a boyfriend and when we become intimate, I feel absolutely nothing inside of me.\n\nIn fact, in general I feel no positive emotions and when something good does happen, I feel hollow. \n\nNothing really seems to make me happy, and I doubt finding a man or woman who loves me will help.\n\nThe past few days I have had little drive to interact with other people and I have felt alienated from the human race.\n\nI don\u2019t think I can achieve long term happiness and am tempted to just off myself since I know I\u2019m going to live an isolated life with no real happiness.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17ad95b\/thinking_of_just_receding_into_myself_until\/"
-  },
-  {
-    "title": "I have been getting bullied so much lol",
-    "text": "I probably have never been bullied this much in my entire life, getting bullied about literally EVERYTHING about me. I was used to it but now that I am kinda not, I cant lie: it does hurt a little bit lol. But I\u2019ll push trough it as I always did. But one guy in particular I would fuck him up so bad if only there were no consequences to that. I gotta just take it. I can\u2019t risk my future for a dumbass, its not worth it\ud83e\udd23. But I\u2019ll fuck him up, sooner or later.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17a97bp\/i_have_been_getting_bullied_so_much_lol\/"
-  },
-  {
-    "title": "Feeling like a failure at 30",
-    "text": "It's been a crazy year for me. I'm 30. After a couple of stressful years, I reached a breaking point early this year and unfortunately suffered from pretty severe depression. Unfortunately, during all of it, I got betrayed, slandered and screwed over by my business partner, and ended up leaving the company on not-so-good terms. My depression has slowly recovered, and I'm now figuring out what's next for my career. \n\nDuring my months of depression, I've alieanted many, many friends. My family doesn't really understand what I went through. I'm single, no girlfriend -- partly a factor of focusing all my time on work in the past couple of years. On days like this, I feel extremely lonely. I feel like a failure at 30. I've disappointed many people and myself. I don't know what to do. :(",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/17a4o7b\/feeling_like_a_failure_at_30\/"
-  },
-  {
-    "title": "Wishing",
-    "text": "I wish that there was a place on the internet that actually felt safe to be a trans man.  Or a support group for mental health that wasn't a breeding ground for hatred and unhealthy coping mechanisms (not saying that it's like that here, just in general experience) I just want to feel safe somewhere. My country is becoming less and less safe and the state I live in is unsafe for trans people and getting worse every vote. I can't talk to anyone around me because how do you explain a cauldron of trauma illnesses to people who have never had any sort of experiences to compare to? You get the face of pity or get told \"it's in the past, get over it\" i know that the internet is full of horrible things, but I think it's not asking for much to want to feel safe somewhere.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/179gsmu\/wishing\/"
-  },
-  {
-    "title": "Help pls",
-    "text": "I don\u2019t know why but I\u2019ve been having intense stress and anxiety over my past. I\u2019d say I\u2019m a pretty good looking guy, but I am just introverted and also dealt with social anxiety in the past. Now I\u2019m overthinking all the opportunities I had with girls. Mainly where I noticed they\u2019d give me a stare or look (sometimes they\u2019d be smiling too). This could be in the hallway of high school or later on in my life at a club. But I never approached. It just doesn\u2019t come naturally to me. I\u2019ve tried to work on this and have had some success, but I\u2019m just overthinking the past. Everyone assumes I\u2019m good looking and so I should be getting a lot of girls easily, but I also have a personality to me that made it harder\/continues to make it harder.\n\nI have an issue with validation from others if I get with women regularly. But I feel like it\u2019s more than that too. I just feel like a failure as a man if I don\u2019t since I\u2019ve been blessed with good looks.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1796g0x\/help_pls\/"
-  },
-  {
-    "title": "I wish I could've changed my situation, but I can't, so I'm considering suicide.",
-    "text": "I struggle with my own image and with my life situation overall. Being born in conservative country that doesn't accept people out of norm, i felt struggle growing up. I don't like being male, I don't want to be in a competition with other men to please some woman. I dislike how my body looks, I want to look pretty, look feminine, be a woman. I'm bisexual, but it's a struggle for me to find partner. I feel hopeless, I don't think I can be happy in my conditions.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/178kzpg\/i_wish_i_couldve_changed_my_situation_but_i_cant\/"
-  },
-  {
-    "title": "Physical deterioration from mental health?",
-    "text": "Does anybody feel like they are aging 5 times faster with poor mental health? \n\nEver since I left university I\u2019ve been on the decline with no direction in life, I\u2019m 21. And in the last declining 2 years my skin has gotten so many more lines, my hairline has gotten worse, I feel like shit and struggle to sleep including right now.\n\nIs this shit reversible if I find confidence and happiness? I don\u2019t know the solution to my problems but looking worse and worse every day does not help.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1788r7k\/physical_deterioration_from_mental_health\/"
-  },
-  {
-    "title": "Reminder: Some people will never be happy",
-    "text": "There are people that will never feel true happiness. You might be different, but that's no excuse to deny reality. If you want to argue otherwise to feed your ego, and present yourself as a savior, then this post is not for you. This post is to acknowledge those who are different, and whose struggles are not so easily understood. I only hope the best for you, as much as you can get.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/177hhcr\/reminder_some_people_will_never_be_happy\/"
-  },
-  {
-    "title": "I'm a failure.",
-    "text": "Recently, we'll for the past couple week I've been feeling suffocated by  my inability to function in life, everyday I wake up hoping the next day doesn't come, every exam, test, attempt at being better has failed. I can't do what I use to be good at, no matter how hard I try I can't be better, I'm losing the ability to be better I feel numb in my own skin, I don't know what to do, I don't want to talk to my friends unfair to them, nor do my parents deserve to feel like they failed me. I don't know what to do, I'm tired, feel ill ever waking moment, I'm not happy how I am but I can't improve do I just stick it out hope for the best, it's not just stress anymore honestly I don't know what it is, I feel like everyone's ahead of me like everyone secretly been told something how to become an adult. Am I missing something have I screwd up?",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/176j9fh\/im_a_failure\/"
-  },
-  {
-    "title": "I feel so negative about my appearance. How do I improve my self image other than losing weight?",
-    "text": "I\u2019m 24M and I\u2019m currently obese at 260 pounds. My goal weight is 170 pounds so it\u2019s going to take a long time to get there. About 8 months to a year of consistency. I know losing weight will help with my body issues, but unfortunately they are affecting my weight loss journey.\n\nI feel so deeply unattractive. The negative thoughts trigger my binge eating disorder. I feel so hopeless that I\u2019ll ever feel positive about my body that in the moment I say screw it and eat an entire pizza plus a pint of ice cream or a very large fast food order. I\u2019ll feel terrible afterwards, but the damage is already done. The binges completely derail my weight loss, I feel even worse, and the cycle continues. \n\nSo I\u2019m looking for advice on how to improve my self image other than losing weight\/exercising. I\u2019m hoping that the improvement in the mental aspect of it will aid my weight loss instead of derailing it.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/175kuuu\/i_feel_so_negative_about_my_appearance_how_do_i\/"
-  },
-  {
-    "title": "Constant state of panic since emdr therapy",
-    "text": "I did my first emdr session, where we did a happy memory exercise, and I had an out of body feeling and mental breakdown during the therapy. It\u2019s been 7 days, and I\u2019ve been in a constant state of panic. It\u2019s hard for me to eat, sleep, or do anything. I\u2019m only able to get a couple hours of sleep per night. I\u2019ve been having bad dissociation and feel like nothing is real. As much as I probably need to be on a powerful anxiety med, I have phobias surrounding taking sedatives or meds that make you drowsy. I\u2019ve tried every grounding exercise and breathing technique, but nothing has worked so far. I want to go to a mental health facility, but I don\u2019t wanna be locked up and sedated. I\u2019m on 20 mg of lexapro, and my doctor is gonna switch me to viibryd and deplin, but those take at least a week to feel effects, and I need to feel relieved now.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/175d8cb\/constant_state_of_panic_since_emdr_therapy\/"
-  },
-  {
-    "title": "Comfort",
-    "text": "I (28M) don\u2019t know where to go or what to do when I need comfort, especially when my partner either cannot or will not provide it. I simply do not have the tools to properly self-soothe without being self destructive in one way or another. I can\u2019t trust either of my parents or any of my siblings to actually provide comfort I need. All of the people I used to consider close friends that I could go to when I was hurting have all gone off and moved on to bigger and better things or have distanced themselves as they\u2019ve watched me struggle. And those that have stuck around, I have no idea if I can trust them to not leave if I let them know how bad it\u2019s really gotten. I feel paralyzed and I\u2019m not sure how much more I can take.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1720882\/comfort\/"
-  },
-  {
-    "title": "An apology to Men on behalf of psychotherapists",
-    "text": "Men who seek mental health support deserve therapists who can empathize with them, and understand their needs. Unfortunately, that's not always what they get. \n\nMen often find themselves with therapists who aren't aware of their own anti-male biases, who think it's cool to denigrate men for how they deal with their emotions, or who don't know that men often need an approach that's different from the approach that women need.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/171bw77\/an_apology_to_men_on_behalf_of_psychotherapists\/"
-  },
-  {
-    "title": "Im done with Woman",
-    "text": "So today was the last straw. I was chatting with a girl and everything was going well. we were chatting, i was flirting and she was flirting back. I seriously thought that i finally found a girl who truly wanted the same thing i want. For the record, im not looking for sex or anything like that. I don't date for that. And out of nowhere she blocks me. The last thing i asked was, \"What are you looking for in a man?\". and that was the moment her profile picture disappeared, and i realised that she is the same as all the others. Blocking me out of nowhere. If you don't want to talk to me that's fine. But at least say it to me. That would prevent a lot of pain. So i'm done, i can't do it anymore!",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/171o3zk\/im_done_with_woman\/"
-  },
-  {
-    "title": "Post SSRI sexual dysfunction (PSSD) has ruined my life for the last 4 years :(.",
-    "text": "\nI\u2019m a 28 year old guy and I got PSSD from taking an SSRI antidepressant back in 2019 for only 3 weeks. Ever since, no emotions, lost all of my high sex drive and worst of all zero pleasure or feeling in orgasms. This is miserable!! The PSSD forum is negative so I try to stay away. I\u2019m so numb with no dopamine feeling anymore. Want to end my life because of this permanent condition. What should I do? Tried so many supplements and even prescription Wellbutrin. I\u2019m screwed, no end in sight",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/1700zoz\/post_ssri_sexual_dysfunction_pssd_has_ruined_my\/"
-  },
-  {
-    "title": "Only guy in my mental health program",
-    "text": "I\u2019m currently doing a everyday program for mental health. There is around 20 people participating and they are all woman. All the staff are women too. Because most people there are woman, the activities and discussions seem to be more geared toward women stuff.\n\nI hate being the only guy there. My family is very much a \u201cmen don\u2019t cry\u201d type of people so it was kinda big for me to get help. My guy friends don\u2019t discuss mental health either, like most groups of 18\/19 yr old guys.\n\nIdk, I just feel really awkward being there. Like the whole men don\u2019t discuss feelings is being reinforced in my mind.",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/16z7555\/only_guy_in_my_mental_health_program\/"
-  },
-  {
-    "title": "I cant live being a virgin anymore",
-    "text": "Everyone I know has sex and it makes me feel like less of an adult, having sex is a requirement to be an adult. \n\nI get extremely jealous knowing everyone else is getting to experience a basic human need apart from me. \n\nI\u2019ve done everything I can to better myself and make myself as attractive as I can but there\u2019s no point. \n\nI\u2019ve accepted all I can do now is kill my self",
-    "url": "https:\/\/www.reddit.com\/r\/malementalhealth\/comments\/16yr28s\/i_cant_live_being_a_virgin_anymore\/"
-  }
-]
+];
 function preload() {
   loadTime = new Date().getTime();
   imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
@@ -388,10 +181,8 @@ function windowHeight() {
 }
 
 function setup() {
-  if (windowWidth < 600)
-    createCanvas(windowWidth, windowWidth);
-  else
-    createCanvas(800, 800);
+  if (windowWidth < 600) createCanvas(windowWidth, windowWidth);
+  else createCanvas(800, 800);
   img = createImage(width, height);
   nextImage();
   paint = new Paint(createVector(width / 2, height / 2));
@@ -426,7 +217,12 @@ function draw() {
 function fget(i, j) {
   var index = j * img.width + i;
   index *= 4;
-  return color(img.pixels[index], img.pixels[index + 1], img.pixels[index + 2], img.pixels[index + 3]);
+  return color(
+    img.pixels[index],
+    img.pixels[index + 1],
+    img.pixels[index + 2],
+    img.pixels[index + 3]
+  );
 }
 
 function fset(i, j, c) {
@@ -439,45 +235,53 @@ function fset(i, j, c) {
 }
 
 function keyPressed() {
-  if (key === 'N')
-    nextImage();
-  if (key === 's' || key === 'S') {
+  if (key === "N") nextImage();
+  if (key === "s" || key === "S") {
     isStop = !isStop;
   }
 }
 
 function mouseClicked() {
-  const wrapper = document.querySelector('.wrapper');
-  const body = document.querySelector('body');
-  const canvas = document.querySelector('canvas');
+  const wrapper = document.querySelector(".wrapper");
+  const body = document.querySelector("body");
+  const canvas = document.querySelector("canvas");
 
-  if (body.classList.contains('active')) {
-    body.classList.remove('active');
+  if (body.classList.contains("active")) {
+    body.classList.remove("active");
   } else {
-    body.classList.add('active');
+    body.classList.add("active");
   }
 
-  if (wrapper.classList.contains('active')) {
-    wrapper.classList.remove('active');
+  if (wrapper.classList.contains("active")) {
+    wrapper.classList.remove("active");
   } else {
-    wrapper.classList.toggle('transition');
-    wrapper.classList.add('active');
+    wrapper.classList.toggle("transition");
+    wrapper.classList.add("active");
   }
-  if (canvas.classList.contains('active')) {
-    canvas.classList.remove('active');
+  if (canvas.classList.contains("active")) {
+    canvas.classList.remove("active");
   } else {
-    canvas.classList.add('active');
+    canvas.classList.add("active");
   }
 }
 
-function touchStarted() {
-}
+function touchStarted() {}
 
 function nextImage() {
   if (!img) return;
-  imgIndex = (++imgIndex) % imgs.length;
+  imgIndex = ++imgIndex % imgs.length;
   var targetImg = imgs[imgIndex];
-  img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+  img.copy(
+    targetImg,
+    0,
+    0,
+    targetImg.width,
+    targetImg.height,
+    0,
+    0,
+    img.width,
+    img.height
+  );
   img.loadPixels();
   clear();
   background(255, 255, 255);
@@ -486,9 +290,9 @@ function nextImage() {
   console.log("switching image to: " + imgIndex);
 }
 
-const shadow = document.querySelector('.shadow');
-document.addEventListener('mousemove', (e) => {
-  let x = e.clientX - (document.documentElement.clientWidth * 1.5);
-  let y = e.clientY - (document.documentElement.clientHeight * 1.5);
-  shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+const shadow = document.querySelector(".shadow");
+document.addEventListener("mousemove", (e) => {
+  let x = e.clientX - document.documentElement.clientWidth * 1.5;
+  let y = e.clientY - document.documentElement.clientHeight * 1.5;
+  shadow.style.transform = "translate(" + x + "px, " + y + "px)";
 });
