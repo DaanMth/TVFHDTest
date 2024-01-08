@@ -54,6 +54,14 @@ h1 {
     line-height: 100%;
 }
 
+.story-title{
+   font-weight: bold;
+}
+
+.story{
+    line-height: 170%;
+}
+
 h2 {
     margin: unset;
     font-family: 'Tangerine', sans-serif;
