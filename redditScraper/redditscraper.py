@@ -28,11 +28,7 @@ for post in posts:
         posts_dict["title"].append(post.title)
         posts_dict["text"].append(post.selftext)
         posts_dict["url"].append(post.url)
-        post_count += 1
-
-    if post_count >= 120:
-            break
-
+        print(post.selftext.length)
 
 
 
