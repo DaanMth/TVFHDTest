@@ -28,7 +28,7 @@ for post in posts:
         posts_dict["title"].append(post.title)
         posts_dict["text"].append(post.selftext)
         posts_dict["url"].append(post.url)
-        print(post.selftext.length)
+        print(len(post.selftext))
 
 
 
