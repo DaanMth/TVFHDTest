@@ -170,129 +170,118 @@ var posts = [
   },
 ];
 function preload() {
-  loadTime = new Date().getTime();
-  imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
-  document.getElementById("story-title").innerHTML = posts[imageCount].title;
-  document.getElementById("story").innerHTML = posts[imageCount].text;
+    loadTime = new Date().getTime();
+    imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
+    document.getElementById("story-title").innerHTML = posts[imageCount].title;
+    document.getElementById("story").innerHTML = posts[imageCount].text;
 }
 
 function windowHeight() {
-  return;
+    return;
 }
 
 function setup() {
-  if (windowWidth < 600) createCanvas(windowWidth, windowWidth);
-  else createCanvas(800, 800);
-  img = createImage(width, height);
-  nextImage();
-  paint = new Paint(createVector(width / 2, height / 2));
-  background(255, 255, 255);
-  colorMode(RGB, 255, 255, 255, 255);
-  var text = "";
-  posts.map((post, index) => {
-    text += post.text + " ";
-  });
+    if (windowWidth < 600)
+        createCanvas(windowWidth, windowWidth);
+    else
+        createCanvas(800, 800);
+    img = createImage(width, height);
+    nextImage();
+    paint = new Paint(createVector(width / 2, height / 2));
+    background(255, 255, 255);
+    colorMode(RGB, 255, 255, 255, 255);
+    var text = "";
+    posts.map((post, index) => {
+        text += post.text + " ";
+    });
 }
 
 function draw() {
-  if (!isStop) {
-    for (var i = 0; i < subStep; i++) {
-      paint.update();
-      paint.show(lineCount);
-      z += 0.01;
+    if (!isStop) {
+        for (var i = 0; i < subStep; i++) {
+            paint.update();
+            paint.show(lineCount);
+            z += 0.01;
+        }
     }
-  }
-  var currentTime = new Date().getTime();
+    var currentTime = new Date().getTime();
 
-  if (currentTime - loadTime > 60000) {
-    isStop = true;
-  }
+    if (currentTime - loadTime > 60000) {
+        isStop = true;
+    }
 
-  if (isStop == true) {
-    nextImage();
-    isStop = false;
-  }
+    if (isStop == true) {
+        nextImage();
+        isStop = false;
+    }
 }
 
 function fget(i, j) {
-  var index = j * img.width + i;
-  index *= 4;
-  return color(
-    img.pixels[index],
-    img.pixels[index + 1],
-    img.pixels[index + 2],
-    img.pixels[index + 3]
-  );
+    var index = j * img.width + i;
+    index *= 4;
+    return color(img.pixels[index], img.pixels[index + 1], img.pixels[index + 2], img.pixels[index + 3]);
 }
 
 function fset(i, j, c) {
-  var index = j * img.width + i;
-  index *= 4;
-  img.pixels[index] = red(c);
-  img.pixels[index + 1] = green(c);
-  img.pixels[index + 2] = blue(c);
-  img.pixels[index + 3] = alpha(c);
+    var index = j * img.width + i;
+    index *= 4;
+    img.pixels[index] = red(c);
+    img.pixels[index + 1] = green(c);
+    img.pixels[index + 2] = blue(c);
+    img.pixels[index + 3] = alpha(c);
 }
 
 function keyPressed() {
-  if (key === "N") nextImage();
-  if (key === "s" || key === "S") {
-    isStop = !isStop;
-  }
+    if (key === 'N')
+        nextImage();
+    if (key === 's' || key === 'S') {
+        isStop = !isStop;
+    }
 }
 
 function mouseClicked() {
-  const wrapper = document.querySelector(".wrapper");
-  const body = document.querySelector("body");
-  const canvas = document.querySelector("canvas");
+    const wrapper = document.querySelector('.wrapper');
+    const body = document.querySelector('body');
+    const canvas = document.querySelector('canvas');
 
-  if (body.classList.contains("active")) {
-    body.classList.remove("active");
-  } else {
-    body.classList.add("active");
-  }
+    if (body.classList.contains('active')) {
+        body.classList.remove('active');
+    } else {
+        body.classList.add('active');
+    }
 
-  if (wrapper.classList.contains("active")) {
-    wrapper.classList.remove("active");
-  } else {
-    wrapper.classList.toggle("transition");
-    wrapper.classList.add("active");
-  }
-  if (canvas.classList.contains("active")) {
-    canvas.classList.remove("active");
-  } else {
-    canvas.classList.add("active");
-  }
+    if (wrapper.classList.contains('active')) {
+        wrapper.classList.remove('active');
+    } else {
+        wrapper.classList.toggle('transition');
+        wrapper.classList.add('active');
+    }
+    if (canvas.classList.contains('active')) {
+        canvas.classList.remove('active');
+    } else {
+        canvas.classList.add('active');
+    }
 }
 
-function touchStarted() {}
+function touchStarted() {
+}
 
 function nextImage() {
-  if (!img) return;
-  imgIndex = ++imgIndex % imgs.length;
-  var targetImg = imgs[imgIndex];
-  img.copy(
-    targetImg,
-    0,
-    0,
-    targetImg.width,
-    targetImg.height,
-    0,
-    0,
-    img.width,
-    img.height
-  );
-  img.loadPixels();
-  clear();
-  background(255, 255, 255);
-  imageCount++;
-  preload();
-  console.log("switching image to: " + imgIndex);
+    if (!img) return;
+    imgIndex = (++imgIndex) % imgs.length;
+    var targetImg = imgs[imgIndex];
+    img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+    img.loadPixels();
+    clear();
+    background(255, 255, 255);
+    preload();
+    imageCount++;
+    console.log("switching image to: " + imgIndex);
 }
 
-const shadow = document.querySelector(".shadow");
-document.addEventListener("mousemove", (e) => {
-  let x = e.clientX - document.documentElement.clientWidth * 1.5;
-  let y = e.clientY - document.documentElement.clientHeight * 1.5;
-  shadow.style.transform = "translate(" + x + "px, " + y + "px)";
+const shadow = document.querySelector('.shadow');
+document.addEventListener('mousemove', (e) => {
+    let x = e.clientX - (document.documentElement.clientWidth * 1.5);
+    let y = e.clientY - (document.documentElement.clientHeight * 1.5);
+    shadow.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
 });
