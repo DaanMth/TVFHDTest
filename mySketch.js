@@ -381,15 +381,6 @@ function preload() {
   imgs[imageCount] = loadImage("./images/output" + imageCount + ".png");
   document.getElementById("story-title").innerHTML = posts[imageCount].title;
   document.getElementById("story").innerHTML = posts[imageCount].text;
-
-  document.getElementById("wordcloud").style.display = "block";
-  if (posts[imageCount].text.length + (posts[imageCount].title.length * 2) > 900) {
-    document.getElementById("wordcloud").style.display = "none";
-  }
-
-  var wordcloudcount = imageCount % 4 + 1
-  document.getElementById("wordcloud-image").src = "./assets/wordcloud" + wordcloudcount + ".png";
-
 }
 
 function windowHeight() {
