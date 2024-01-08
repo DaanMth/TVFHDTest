@@ -32,9 +32,12 @@
 
 .emamcs {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    gap: 36px;
-    transform: translateY(23%);
+    gap: 80px;
+    height: 100%;
+    top: 0;
 }
 
 body {
@@ -64,7 +67,7 @@ h1 {
 }
 
 .story{
-    line-height: 170%;
+    line-height: 175%;
 }
 
 h2 {
@@ -75,7 +78,6 @@ h2 {
 }
 
 p {
-    line-height: 160%;
     margin-bottom: 0;
 }
 
