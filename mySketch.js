@@ -224,23 +224,23 @@ function setup() {
 }
 
 function draw() {
-    if (!isStop) {
-        for (var i = 0; i < subStep; i++) {
-            paint.update();
-            paint.show(lineCount);
-            z += 0.01;
-        }
-    }
-    var currentTime = new Date().getTime();
+    // if (!isStop) {
+    //     for (var i = 0; i < subStep; i++) {
+    //         paint.update();
+    //         paint.show(lineCount);
+    //         z += 0.01;
+    //     }
+    // }
+    // var currentTime = new Date().getTime();
 
-    if (currentTime - loadTime > 60000) {
-        isStop = true;
-    }
+    // if (currentTime - loadTime > 60000) {
+    //     isStop = true;
+    // }
 
-    if (isStop == true) {
-        nextImage();
-        isStop = false;
-    }
+    // if (isStop == true) {
+    //     nextImage();
+    //     isStop = false;
+    // }
 }
 
 function fget(i, j) {
@@ -261,6 +261,7 @@ function fset(i, j, c) {
 function keyPressed() {
     if (key === 'N')
         nextImage();
+        console.log(posts)
     if (key === 's' || key === 'S') {
         isStop = !isStop;
     }
@@ -303,7 +304,7 @@ function nextImage() {
     background(255, 255, 255);
     preload();
     imageCount++;
-    textCount += 2;
+    textCount++;
     if (textCount > 29){
       textCount = 0;
     }

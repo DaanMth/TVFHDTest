@@ -95,7 +95,8 @@ p {
 }
 
 body.active {
-    background: white;
+    background-image: url('./assets/background2.png');
+    background-size: cover;
 }
 
 
@@ -103,14 +104,14 @@ body.active {
     font-weight: bold;
     font-size: 550%;
     line-height: 100%;
-    text-align: right;
+    text-align: center;
     font-family: 'Beth Ellen', sans-serif;
 }
 
 .suicide-text {
     font-weight: bold;
     font-size: 300%;
-    text-align: right;
+    text-align: center;
     font-family: 'Beth Ellen', sans-serif;
 }
 
@@ -148,7 +149,7 @@ img {
 }
 
 .bottom {
-    bottom: 3rem;
+    bottom: 7rem;
 }
 
 .top-middle {
@@ -185,7 +186,7 @@ img {
     transform: translateX(-50%) translateY(-50%);
     transition: background 0.3s ease; /* Add a smooth transition effect */
     z-index: 0;
-    background: radial-gradient(circle at center, transparent 13%, black 16%);
+    background: radial-gradient(circle at center, transparent 8%, black 13%);
 }
 
 .wrapper.active {
