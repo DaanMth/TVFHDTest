@@ -12,7 +12,9 @@ class HandTracking:
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
         lower_green = np.array([40, 40, 40])
         upper_green = np.array([80, 255, 255])
-        mask = cv2.inRange(hsv, lower_green, upper_green)
+        lower_yellow = np.array([20, 100, 100])
+        upper_yellow = np.array([30, 255, 255]) 
+        mask = cv2.inRange(hsv, lower_yellow, upper_yellow)
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
         center = None
@@ -24,7 +26,28 @@ class HandTracking:
                 cy = int(M["m01"] / M["m00"])
                 center = (cx, cy)
 
+                # Check for the presence of a square
+                square_detected = self.detect_square(frame, max_contour)
+
+                if square_detected:
+                    # Perform a single mouse button click when a square is detected inside the yellow circle
+                    autopy.mouse.click()
+
         return center
+
+    def detect_square(self, frame, contour):
+        # Calculate the perimeter of the contour
+        perimeter = cv2.arcLength(contour, True)
+        
+        # Approximate the contour to a polygon
+        epsilon = 0.02 * perimeter
+        approx = cv2.approxPolyDP(contour, epsilon, True)
+        
+        # Check if the polygon is a square
+        if len(approx) == 4:
+            return True
+        
+        return False
 
     def find_distance(self, p1, p2, img, draw=True, r=15, t=3):
         x1, y1 = p1

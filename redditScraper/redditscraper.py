@@ -21,14 +21,13 @@ post_count = 0
 for post in posts:
     # Check if the post's flair matches the desired flair
     if (post.link_flair_text == "Vent"
-    and len(post.selftext) < 1300 and len(post.selftext) > 800
+    and len(post.selftext) < 1800 and len(post.selftext) > 1000
     and "youtube" not in post.url.lower()
     and "youtu.be" not in post.url.lower()
     and "i.redd.it" not in post.url.lower()):
         posts_dict["title"].append(post.title)
         posts_dict["text"].append(post.selftext)
         posts_dict["url"].append(post.url)
-        print(len(post.selftext))
 
 
 

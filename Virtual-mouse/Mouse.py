@@ -23,6 +23,9 @@ click_performed = False
 
 flashlight_on = False
 
+lower_yellow = np.array([20, 100, 100])
+upper_yellow = np.array([30, 255, 255])
+
 while True:
     success, img = cap.read()
 

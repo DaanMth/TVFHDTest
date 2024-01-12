@@ -23,7 +23,15 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    gap: 12px;
+    gap: 8px;
+}
+
+.space-between2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 8px;
 }
 
 .wordcloud {
@@ -64,16 +72,21 @@ h1 {
 
 .story-title{
    font-weight: bold;
+   font-size: 60px;
 }
 
 .story{
     line-height: 175%;
 }
 
+.story2{
+    line-height: 175%;
+}
+
 h2 {
     margin: unset;
     font-family: 'Tangerine', sans-serif;
-    font-size: 130px;
+    font-size: 150px;
     line-height: 100%;
 }
 
@@ -88,16 +101,16 @@ body.active {
 
 .suicide-title {
     font-weight: bold;
-    font-size: 850%;
+    font-size: 550%;
     line-height: 100%;
-    text-align: center;
+    text-align: right;
     font-family: 'Beth Ellen', sans-serif;
 }
 
 .suicide-text {
     font-weight: bold;
     font-size: 300%;
-    text-align: center;
+    text-align: right;
     font-family: 'Beth Ellen', sans-serif;
 }
 
@@ -107,8 +120,6 @@ body.active {
     color: #333;
     z-index: -1;
 }
-
-
 
 
 img {
@@ -137,7 +148,7 @@ img {
 }
 
 .bottom {
-    bottom: 12px;
+    bottom: 3rem;
 }
 
 .top-middle {
