@@ -294,8 +294,31 @@ function mouseClicked() {
 function touchStarted() {
 }
 
+let isFirstCall = true;
+let prevImgIndex = -1;
+
 function nextImage() {
     if (!img) return;
+
+    let randomIndex;
+
+    if (isFirstCall) {
+        // If it's the first call, set the class to 'body' without 'active'
+        document.body.className = '';
+        isFirstCall = false;
+    } else {
+        // Generate a new index until it's different from the previous one
+        do {
+            randomIndex = Math.floor(Math.random() * 8) + 3;
+        } while (randomIndex === prevImgIndex);
+
+        // Update the class to correspond to the selected background image
+        document.body.className = 'active img-' + randomIndex;
+
+        // Update the previous index
+        prevImgIndex = randomIndex;
+    }
+
     imgIndex = (++imgIndex) % imgs.length;
     var targetImg = imgs[imgIndex];
     img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
@@ -306,7 +329,7 @@ function nextImage() {
     imageCount++;
     textCount++;
     if (textCount > 29){
-      textCount = 0;
+        textCount = 0;
     }
     console.log("switching image to: " + imgIndex);
 }

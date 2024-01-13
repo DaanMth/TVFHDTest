@@ -95,8 +95,35 @@ p {
 }
 
 body.active {
-    background-image: url('./assets/background2.png');
-    background-size: cover;
+    background-image: url('./assets/background3.png');
+}
+
+body.active.img-2 {
+    background-image: url('./assets/background4.png');
+}
+
+body.active.img-3 {
+    background-image: url('./assets/background5.png');
+}
+
+body.active.img-4 {
+    background-image: url('./assets/background6.png');
+}
+
+body.active.img-5 {
+    background-image: url('./assets/background7.png');
+}
+
+body.active.img-6 {
+    background-image: url('./assets/background8.png');
+}
+
+body.active.img-7 {
+    background-image: url('./assets/background9.png');
+}
+
+body.active.img-8 {
+    background-image: url('./assets/background10.png');
 }
 
 
