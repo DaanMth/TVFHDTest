@@ -297,8 +297,7 @@ function nextImage() {
     do {
         randomIndex = Math.floor(Math.random() * 8) + 1;
     } while (randomIndex === prevImgIndex);
-        document.body.className = 'img-' + randomIndex;
-        prevImgIndex = randomIndex;
+
     document.body.classList.add('img-' + randomIndex);
     prevImgIndex = randomIndex;
 

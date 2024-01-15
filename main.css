@@ -81,10 +81,6 @@ p {
     margin-bottom: 0;
 }
 
-body.active {
-    background-color: white;
-}
-
 body.active.img-1 {
     background-image: url('./assets/background3.png');
 }
