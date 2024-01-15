@@ -28,7 +28,7 @@ var posts = [
     },
     {
       "title": "Day 43: I got home and went straight to bed. Just like I knew I would....",
-      "text": "I thought I could do this. I thought I could be consistent and get everything that I had to do done. It's 20:55 though and I'm still just laying in bed. \n\nI know it's my own fault. I over worked myself. I overdid it with the alcohol. I'm so tired. \n\nI've been feeling lonely and distant from everyone. Maybe the holidays were too much. Maybe I'm just socially and mentally drained. I've been doubting myself.\n\nI've been lying to myself. I wasn't trying to wake up this morning. TheFre I said it, now what? Yesterday morning wasn't an accident either. The scrapes on my knees hurt now but they didn't when I fell. I guess it's that numbness that I've been craving.\n\nI can't help but notice just how empty this house feels tonight. Nobody's here and nobody is coming. I'm pissed about all the things I could have done but haven't. \n\nTomorrow is another day to be someone different though. How long will I keep telling myself that before I actually make a change?",
+      "text": "I thought I could do this. I thought I could be consistent and get everything that I had to do done. It's 20:55 though and I'm still just laying in bed. \n\nI know it's my own fault. I over worked myself. I overdid it with the alcohol. I'm so tired. \n\nI've been feeling lonely and distant from everyone. Maybe the holidays were too much. Maybe I'm just socially and mentally drained. I've been doubting myself.\n\nI've been lying to myself. I wasn't trying to wake up this morning. There I said it, now what? Yesterday morning wasn't an accident either. The scrapes on my knees hurt now but they didn't when I fell. I guess it's that numbness that I've been craving.\n\nI can't help but notice just how empty this house feels tonight. Nobody's here and nobody is coming. I'm pissed about all the things I could have done but haven't. \n\nTomorrow is another day to be someone different though. How long will I keep telling myself that before I actually make a change?",
       "url": "https://www.reddit.com/r/malementalhealth/comments/18zqzte/day_43_i_got_home_and_went_straight_to_bed_just/"
     },
     {
@@ -224,23 +224,23 @@ function setup() {
 }
 
 function draw() {
-    // if (!isStop) {
-    //     for (var i = 0; i < subStep; i++) {
-    //         paint.update();
-    //         paint.show(lineCount);
-    //         z += 0.01;
-    //     }
-    // }
-    // var currentTime = new Date().getTime();
+    if (!isStop) {
+        for (var i = 0; i < subStep; i++) {
+            paint.update();
+            paint.show(lineCount);
+            z += 0.01;
+        }
+    }
+    var currentTime = new Date().getTime();
 
-    // if (currentTime - loadTime > 60000) {
-    //     isStop = true;
-    // }
+    if (currentTime - loadTime > 60000) {
+        isStop = true;
+    }
 
-    // if (isStop == true) {
-    //     nextImage();
-    //     isStop = false;
-    // }
+    if (isStop == true) {
+        nextImage();
+        isStop = false;
+    }
 }
 
 function fget(i, j) {
@@ -261,7 +261,6 @@ function fset(i, j, c) {
 function keyPressed() {
     if (key === 'N')
         nextImage();
-        console.log(posts)
     if (key === 's' || key === 'S') {
         isStop = !isStop;
     }
