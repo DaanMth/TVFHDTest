@@ -10,11 +10,13 @@ class HandTracking:
 
     def detect_color(self, frame):
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-        lower_green = np.array([40, 40, 40])
-        upper_green = np.array([80, 255, 255])
-        lower_pink = np.array([140, 100, 100])
-        upper_pink = np.array([160, 255, 255])
+        upper_pink = np.array([180, 255, 255])
+        lower_pink = np.array([160, 100, 100])
         mask = cv2.inRange(hsv, lower_pink, upper_pink)
+        
+        # Debugging: Display the mask
+        cv2.imshow("Mask", mask)
+
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
         center = None
@@ -25,13 +27,6 @@ class HandTracking:
                 cx = int(M["m10"] / M["m00"])
                 cy = int(M["m01"] / M["m00"])
                 center = (cx, cy)
-
-                # Check for the presence of a square
-                # square_detected = self.detect_square(frame, max_contour)
-
-                # if square_detected:
-                #     # Perform a single mouse button click when a square is detected inside the yellow circle
-                #     autopy.mouse.click()
 
         return center
 
