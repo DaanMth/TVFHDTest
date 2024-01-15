@@ -26,14 +26,6 @@
     gap: 8px;
 }
 
-.space-between2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-    gap: 8px;
-}
-
 .wordcloud {
     margin-bottom: 24px;
 }
@@ -61,7 +53,6 @@ body {
     overflow: hidden;
     z-index: 2;
     font-family: 'Paprika', sans-serif;
-
 }
 
 h1 {
