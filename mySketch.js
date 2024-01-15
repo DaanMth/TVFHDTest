@@ -282,36 +282,33 @@ function mouseClicked() {
     } else {
         wrapper.classList.add('active');
     }
-    if (canvas.classList.contains('active')) {
-        canvas.classList.remove('active');
-    } else {
-        canvas.classList.add('active');
-    }
 }
 
 function touchStarted() {
 }
 
-let isFirstCall = true;
 let prevImgIndex = -1;
 
 function nextImage() {
     if (!img) return;
 
+    document.body.classList.remove('img-' + prevImgIndex)
     let randomIndex;
     do {
-        randomIndex = Math.floor(Math.random() * 8) + 3;
+        randomIndex = Math.floor(Math.random() * 8) + 1;
     } while (randomIndex === prevImgIndex);
         document.body.className = 'img-' + randomIndex;
         prevImgIndex = randomIndex;
+    document.body.classList.add('img-' + randomIndex);
+    prevImgIndex = randomIndex;
 
     imgIndex = (++imgIndex) % imgs.length;
     var targetImg = imgs[imgIndex];
     img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
     img.loadPixels();
     clear();
-    background(255, 255, 255);
     preload();
+    background(255, 255, 255)
     imageCount++;
     textCount++;
     if (textCount > 29) {
