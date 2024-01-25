@@ -1,5 +1,5 @@
 var imgs = [];
-var imgIndex = -1;
+var imgIndex = 0;
 var img;
 var paint;
 var subStep = 1600;
@@ -287,7 +287,7 @@ function mouseClicked() {
 function touchStarted() {
 }
 
-let prevImgIndex = -1;
+let prevImgIndex = 0;
 
 function nextImage() {
     if (!img) return;
@@ -306,14 +306,15 @@ function nextImage() {
     img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
     img.loadPixels();
     clear();
+    imageCount++;
     preload();
     background(255, 255, 255)
-    imageCount++;
     textCount++;
     if (textCount > 29) {
         textCount = 0;
     }
     console.log("switching image to: " + imgIndex);
+    console.log(imageCount)
 }
 
 const shadow = document.querySelector('.shadow');
